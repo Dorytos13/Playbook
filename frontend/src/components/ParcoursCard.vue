@@ -20,7 +20,16 @@
     <p class="text-xs text-gray-500 leading-relaxed mb-3">{{ description }}</p>
 
     <!-- Lien -->
+    <RouterLink
+      v-if="to"
+      :to="to"
+      class="text-xs font-medium"
+      :class="highlighted ? 'text-blue-600' : 'text-gray-400'"
+    >
+      {{ linkText }} →
+    </RouterLink>
     <span
+      v-else
       class="text-xs font-medium"
       :class="highlighted ? 'text-blue-600' : 'text-gray-400'"
     >
@@ -34,6 +43,7 @@ defineProps({
   title:       String,
   description: String,
   linkText:    String,
+  to:          String,
   badge:       String,
   highlighted: Boolean,
 })
