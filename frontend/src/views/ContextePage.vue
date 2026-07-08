@@ -1,15 +1,6 @@
 <template>
   <div class="font-sans min-h-screen" style="background:#e8e8e4">
 
-    <!-- Nav -->
-    <nav class="flex items-center justify-between px-8 py-4">
-      <span class="text-sm font-medium text-gray-900">Playbook</span>
-      <button @click="$router.push('/')" class="flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-600 transition-colors">
-        <i class="ti ti-arrow-left text-sm" aria-hidden="true"></i>
-        Retour à l'accueil
-      </button>
-    </nav>
-
     <div class="px-20 pb-16 flex flex-col gap-5">
 
       <!-- Hero -->
@@ -113,44 +104,14 @@
         </div>
       </div>
 
-      <!-- Section 4 — Périmètre -->
+      <!-- Section 4 — Limites et évolutivité -->
       <div class="section-gray rounded-2xl px-12 py-12 relative overflow-hidden">
         <div class="grain-overlay"></div>
-        <div class="relative z-10 grid grid-cols-3 gap-12 items-start">
+        <div class="relative z-10">
+        <div class="grid grid-cols-3 gap-12 items-start">
           <div class="col-span-2">
             <div class="flex flex-row items-center gap-3 flex-wrap mb-4">
               <span class="text-xs font-medium tracking-widest text-gray-400">04 / 06</span>
-              <span class="text-xs px-3 py-1 rounded-full border border-gray-200 text-gray-500 w-fit">Périmètre et objectifs</span>
-            </div>
-            <h2 class="font-display text-2xl font-medium text-gray-900 leading-snug mb-4">
-              Définir le périmètre avant de commencer.
-            </h2>
-            <p class="text-sm text-gray-500 leading-relaxed mb-3">
-              L'initialisation du projet débute par un brief initial. Cela permet de saisir la vision qu'ont les responsables concernant leurs besoins numériques. Ce brief peut être fait à l'oral en présentiel — c'est souvent plus naturel — ou par écrit.
-            </p>
-            <p class="text-sm text-gray-500 leading-relaxed">
-              À ce stade, l'ingénieur prend note de ce qui est dit et pourra axer ses recherches préliminaires dans ce sens, puis réaliser un premier devis et cahier des charges à soumettre au mandant.
-            </p>
-            <div class="mt-6 rounded-xl bg-white p-5">
-              <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-3">Points clés du brief initial</p>
-              <div class="flex flex-col gap-2">
-                <div v-for="point in briefPoints" :key="point" class="flex items-start gap-2.5 text-sm text-gray-600">
-                  <i class="ti ti-check text-blue-600 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
-                  {{ point }}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div></div>
-        </div>
-      </div>
-
-      <!-- Section 5 — Limites et évolutivité -->
-      <div class="bg-white rounded-2xl px-12 py-12">
-        <div class="grid grid-cols-3 gap-12 items-start">
-          <div class="col-start-2 col-span-2 text-right">
-            <div class="flex flex-row items-center justify-end gap-3 flex-wrap mb-4">
-              <span class="text-xs font-medium tracking-widest text-gray-400">05 / 06</span>
               <span class="text-xs px-3 py-1 rounded-full border border-gray-200 text-gray-500 w-fit">Limites et évolutivité</span>
             </div>
             <h2 class="font-display text-2xl font-medium text-gray-900 leading-snug mb-4">
@@ -159,22 +120,53 @@
             <p class="text-sm text-gray-500 leading-relaxed mb-5">
               Ce playbook, dans sa version actuelle, se concentre délibérément sur les fondations opérationnelles. Bien que cela face l'objet de la majorité des demandes d'entreprises, la visibilité externe n'est pas la première priorité. Proposer une stratégie de communication à une entreprise dont les processus internes sont défaillants amplifie les frictions plutôt que de les résoudre.
             </p>
-            <div class="flex flex-wrap gap-2 mb-6 justify-end">
-              <span v-for="item in horsPerimetre" :key="item"
-                class="text-xs px-3 py-1.5 rounded-full border border-gray-200 text-gray-400">
-                ✗ {{ item }}
-              </span>
-              <span v-for="item in dansPerimetre" :key="item"
-                class="text-xs px-3 py-1.5 rounded-full bg-gray-900 text-white border border-gray-900">
-                ✓ {{ item }}
-              </span>
-            </div>
             <div class="rounded-xl bg-gray-50 p-5">
               <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-2">Évolutivité</p>
               <p class="text-sm text-gray-500 leading-relaxed">
                 Basé sur une première expérience dans le cadre d'un travail de Bachelor, ce playbook est conçu pour être enrichi après chaque mission. Les fiches friction, les outils recommandés et les exemples terrain pourront être complétés au fil des cas rencontrés.
               </p>
             </div>
+          </div>
+          <div></div>
+        </div>
+        <div class="flex flex-wrap gap-2 mt-6 mb-6 w-full">
+          <span v-for="item in horsPerimetre" :key="item"
+            class="text-xs px-3 py-1.5 rounded-full border border-gray-500 text-gray-500">
+            ✗ {{ item }}
+          </span>
+          <span v-for="item in dansPerimetre" :key="item"
+            class="text-xs px-3 py-1.5 rounded-full bg-gray-900 text-white border border-gray-900">
+            ✓ {{ item }}
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <!-- Section 5 — Périmètre + Validation -->
+      <div class="bg-white rounded-2xl px-12 py-12">
+        <div class="grid grid-cols-3 gap-12 items-start">
+          <div></div>
+          <div class="col-span-2">
+            <div class="flex flex-row items-center gap-3 flex-wrap mb-4">
+              <span class="text-xs font-medium tracking-widest text-gray-400">05 / 06</span>
+              <span class="text-xs px-3 py-1 rounded-full border border-gray-200 text-gray-500 w-fit">Périmètre et validation</span>
+            </div>
+            <h2 class="font-display text-2xl font-medium text-gray-900 leading-snug mb-6">
+              Définir le périmètre, puis convaincre
+            </h2>
+
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-3">Brief initial</p>
+            <p class="text-sm text-gray-500 leading-relaxed mb-3">
+              Afin de pouvoir réaliser un devis et un premier cahier des charges général, l'initialisation du projet débute par un brief initial. Cela permet de saisir la vision qu'ont le ou les responsables concernant leurs besoins numériques.
+            </p>
+            <p class="text-sm text-gray-500 leading-relaxed mb-8">
+              Ce brief peut autant être fait de manière orale en présentiel que par écrit. Souvent, il est plus naturel de le faire à l'oral dans les locaux ce qui permet de s'immiscer dans le domaine. À ce stade, l'ingénieur prend note et axe ses recherches préliminaires dans ce sens.
+            </p>
+
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-3">Validation du mandat</p>
+            <p class="text-sm text-gray-500 leading-relaxed mb-6">
+              Sans nul doute, il s'agit de la phase décisive du projet. Un mandat marque la transition formelle entre la phase de diagnostic et la phase d'exécution, aboutissant à un contrat entre le consultant et l'entreprise. Si le mandant ne comprend pas ce qui est proposé, n'en voit pas les bénéfices ou la pertinence de l'investissement, il ne donnera probablement pas suite.
+            </p>
           </div>
         </div>
       </div>
@@ -253,6 +245,21 @@ const briefPoints = [
   "Prendre note sans proposer de solutions à ce stade",
   "Axer les recherches préliminaires dans ce sens",
   "Produire un premier devis et cahier des charges",
+]
+
+const conseilsMandat = [
+  {
+    titre: "Expliquer, vulgariser, illustrer",
+    desc: "Mettre en avant les bénéfices concrets pour la société en évitant le jargon technique.",
+  },
+  {
+    titre: "Aborder les changements avec pédagogie",
+    desc: "Rassurer la personne sur la manière dont la solution va être effectuée et implémentée.",
+  },
+  {
+    titre: "Être transparent sur l'investissement requis",
+    desc: "Coûts, temps, apprentissage — tout dire en amont pour prévenir une résistance au changement ou un abandon de la solution.",
+  },
 ]
 
 const horsPerimetre = [
