@@ -1,6 +1,6 @@
 <template>
   <footer class="font-sans" style="background:#e8e8e4">
-    <div class="px-12 xl:px-20 pt-10 pb-14">
+    <div class="px-6 xl:px-10 pt-10 pb-14">
       <div class="border-t border-gray-300 pt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
 
         <!-- Nature du document -->

@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans min-h-screen" style="background:#e8e8e4">
-    <div class="px-12 xl:px-20 py-12">
+    <div class="px-6 xl:px-10 py-12">
 
       <!-- Hero -->
       <header class="text-center mb-12">
@@ -16,15 +16,13 @@
         </p>
       </header>
 
-      <div class="grid grid-cols-[220px_1fr] gap-10">
+      <div class="flex gap-10">
 
         <!-- Menu -->
-        <aside>
-          <MethodeNav />
-        </aside>
+        <MethodeNav />
 
         <!-- Contenu -->
-        <div class="flex flex-col gap-5 min-w-0">
+        <div class="flex-1 flex flex-col gap-5 min-w-0">
 
           <!-- Qu'est-ce qu'un playbook ? -->
           <div class="bg-white rounded-2xl px-12 py-12">

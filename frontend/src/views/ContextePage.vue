@@ -2,7 +2,7 @@
   <div class="font-sans min-h-screen" style="background:#e8e8e4">
 
     <!-- Hero -->
-    <header class="px-12 xl:px-20 pt-12 mb-12 text-center">
+    <header class="px-6 xl:px-10 pt-12 mb-12 text-center">
       <span class="inline-block font-display text-xs font-medium tracking-widest text-gray-400 border border-gray-400 rounded-full px-3 py-1 mb-5">
         Contexte
       </span>
@@ -14,11 +14,9 @@
       </p>
     </header>
 
-    <div class="px-12 xl:px-20 pb-16 grid grid-cols-[220px_1fr] gap-10">
-      <aside>
-        <MethodeNav />
-      </aside>
-      <div class="flex flex-col gap-5 min-w-0">
+    <div class="px-6 xl:px-10 pb-16 flex gap-10">
+      <MethodeNav />
+      <div class="flex-1 flex flex-col gap-5 min-w-0">
 
         <!-- Section 1 — PME en retard -->
         <div class="bg-white rounded-2xl px-12 py-12">
