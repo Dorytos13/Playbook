@@ -209,16 +209,16 @@
           <div class="relative z-10">
             <div class="grid grid-cols-3 gap-12 items-start">
               <div class="col-span-2">
-                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4" style="border:0.5px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8)">
+                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4 border-[0.5px] border-white/30 text-white/80">
                   Pour aller plus loin
                 </span>
                 <h2 class="font-display text-2xl font-medium leading-snug mb-4 text-white">
                   Avoir une vision objective
                 </h2>
-                <p class="text-sm leading-relaxed mb-3" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-3 text-white/75">
                   La matrice d'Eisenhower croise l'urgence et l'importance. Elle ne dit rien d'un troisième filtre, pourtant décisif quand on intervient seul : <strong class="font-medium text-white">est-ce mon métier ?</strong>
                 </p>
-                <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-8 text-white/75">
                   Un besoin peut être urgent, important, et ne pas relever de vous. En micro-entreprise, un intervenant croise systématiquement des besoins qui appellent un graphiste, un comptable ou une agence. Bien que le profil d'ingénieur des médias permet une grande flexibilité, il est important de savoir dire « ce n'est pas mon métier » et de proposer une suite à l'entreprise plutôt que de promettre ce qu'on ne pourra pas tenir.
                 </p>
                 <p class="text-xs font-medium text-gray-200 uppercase tracking-widest mb-4">
@@ -228,16 +228,16 @@
               <div></div>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-px rounded-xl overflow-hidden mb-8" style="background:rgba(255,255,255,0.2)">
-              <div v-for="i in issues" :key="i.nom" class="px-7 py-7" style="background:rgba(255,255,255,0.08)">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px rounded-xl overflow-hidden mb-8 bg-white/20">
+              <div v-for="i in issues" :key="i.nom" class="px-7 py-7 bg-white/8">
                 <p class="font-display text-lg font-medium mb-1 text-white">{{ i.nom }}</p>
-                <p class="text-xs font-medium uppercase tracking-widest mb-3" style="color:rgba(255,255,255,0.5)">{{ i.quand }}</p>
-                <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.75)">{{ i.suite }}</p>
+                <p class="text-xs font-medium uppercase tracking-widest mb-3 text-white/50">{{ i.quand }}</p>
+                <p class="text-sm leading-relaxed text-white/75">{{ i.suite }}</p>
               </div>
             </div>
 
-            <div class="rounded-xl p-6" style="background:rgba(255,255,255,0.08)">
-              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.9)">
+            <div class="rounded-xl p-6 bg-white/8">
+              <p class="text-sm leading-relaxed text-white/90">
                 La distinction entre <strong class="font-medium">délégué</strong> et <strong class="font-medium">écarté</strong> est ce qui rend un périmètre acceptable. Un besoin qu'on retire sans contrepartie donne l'impression qu'on l'a ignoré ; un besoin qu'on retire en indiquant qui saurait le traiter et pour quel ordre de grandeur reste une réponse.
               </p>
             </div>

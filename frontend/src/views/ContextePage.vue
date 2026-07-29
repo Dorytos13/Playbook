@@ -37,8 +37,8 @@
               </p>
             </div>
             <div class="w-full">
-              <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden" style="background:#e5e7eb">
-                <div v-for="stat in stats1" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center" style="background:#f9fafb">
+              <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden bg-gray-200">
+                <div v-for="stat in stats1" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center bg-gray-50">
                   <p class="font-display text-5xl font-medium text-gray-900 leading-none mb-3">{{ stat.val }}</p>
                   <p class="text-xs font-medium tracking-widest uppercase text-gray-400 leading-relaxed">{{ stat.label }}</p>
                 </div>
@@ -55,29 +55,29 @@
             <div class="grid grid-cols-3 gap-12 items-start">
               <div class="col-span-2">
                 <div class="flex flex-row items-center gap-3 flex-wrap mb-4">
-                  <span class="text-xs font-medium tracking-widest" style="color:rgba(255,255,255,0.5)">02 / 06</span>
-                  <span class="text-xs px-3 py-1 rounded-full" style="border:0.5px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8)">Comportement clients</span>
+                  <span class="text-xs font-medium tracking-widest text-white/50">02 / 06</span>
+                  <span class="text-xs px-3 py-1 rounded-full border-[0.5px] border-white/30 text-white/80">Comportement clients</span>
                 </div>
-                <h2 class="font-display text-2xl font-medium leading-snug mb-4" style="color:#ffffff">
+                <h2 class="font-display text-2xl font-medium leading-snug mb-4 text-white">
                   Se digitaliser, c'est répondre à un changement de comportement
                 </h2>
-                <p class="text-sm leading-relaxed mb-3" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-3 text-white/75">
                   Aujourd'hui, quand quelqu'un cherche un service ou un lieu, son premier réflexe est d'ouvrir Google. Le comportement des consommateurs a changé et les PME ne sont pas nombreuses à avoir suivi.
                 </p>
-                <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-8 text-white/75">
                   En chiffres :
                 </p>
               </div>
               <div></div>
             </div>
 
-            <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden" style="background:rgba(255,255,255,0.2)">
-              <div v-for="stat in stats2" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center" style="background:rgba(255,255,255,0.08)">
-                <p class="font-display text-5xl font-medium leading-none mb-3" style="color:#ffffff">{{ stat.val }}</p>
-                <p class="text-xs font-medium tracking-widest uppercase leading-relaxed" style="color:rgba(255,255,255,0.7)">{{ stat.label }}</p>
+            <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden bg-white/20">
+              <div v-for="stat in stats2" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center bg-white/8">
+                <p class="font-display text-5xl font-medium leading-none mb-3 text-white">{{ stat.val }}</p>
+                <p class="text-xs font-medium tracking-widest uppercase leading-relaxed text-white/70">{{ stat.label }}</p>
               </div>
             </div>
-            <p class="text-xs mt-3" style="color:rgba(255,255,255,0.4)">Sources — HSLU & Localsearch, PME Digital Pulse 2025</p>
+            <p class="text-xs mt-3 text-white/40">Sources — HSLU & Localsearch, PME Digital Pulse 2025</p>
           </div>
         </div>
 
@@ -183,26 +183,26 @@
           <div class="grain-overlay"></div>
           <div class="relative z-10">
             <div class="flex items-center gap-3 mb-8">
-              <span class="text-xs font-medium tracking-widest" style="color:#4b5563">06 / 06</span>
-              <span class="text-xs px-3 py-1 rounded-full" style="border:0.5px solid #374151;color:#9ca3af">Le cas Photogare</span>
+              <span class="text-xs font-medium tracking-widest text-gray-600">06 / 06</span>
+              <span class="text-xs px-3 py-1 rounded-full border-[0.5px] border-gray-700 text-gray-400">Le cas Photogare</span>
             </div>
-            <h2 class="font-display text-2xl font-medium leading-snug mb-4 max-w-xl" style="color:#ffffff">
+            <h2 class="font-display text-2xl font-medium leading-snug mb-4 max-w-xl text-white">
               Photogare, Morges
             </h2>
-            <p class="text-sm leading-relaxed max-w-lg mb-3" style="color:#6b7280">
+            <p class="text-sm leading-relaxed max-w-lg mb-3 text-gray-500">
               Cette méthodologie sera illustrée par un cas pratique réalisé dans le cadre d'un travail de Bachelor en Ingénierie des Médias à la HEIG-VD en 2026.
             </p>
-            <p class="text-sm leading-relaxed max-w-lg mb-10" style="color:#6b7280">
+            <p class="text-sm leading-relaxed max-w-lg mb-10 text-gray-500">
               Photogare est une entreprise du domaine de la photographie implantée à Morges depuis ses débuts en 1959. Actuellement composée de 4 membres, l’objectif initial défini avant le travail consistait à les accompagner dans une transformation digitale leur permettant d’élargir leurs horizons.          
             </p>
           
-            <div class="grid grid-cols-4 gap-px rounded-xl overflow-hidden" style="background:#1f2937">
-              <div v-for="stat in stats6" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center" style="background:#111110">
-                <p class="font-display text-5xl font-medium leading-none mb-3" style="color:#ffffff">{{ stat.val }}</p>
-                <p class="text-xs font-medium tracking-widest uppercase leading-relaxed" style="color:#4b5563">{{ stat.label }}</p>
+            <div class="grid grid-cols-4 gap-px rounded-xl overflow-hidden bg-gray-800">
+              <div v-for="stat in stats6" :key="stat.val" class="px-6 py-8 flex flex-col items-center text-center bg-gray-950">
+                <p class="font-display text-5xl font-medium leading-none mb-3 text-white">{{ stat.val }}</p>
+                <p class="text-xs font-medium tracking-widest uppercase leading-relaxed text-gray-600">{{ stat.label }}</p>
               </div>
             </div>
-            <p class="text-xs mt-3" style="color:#374151">Sources — Entretien Y. Burdet, 2026 · Google Business Profile, 2026</p>
+            <p class="text-xs mt-3 text-gray-700">Sources — Entretien Y. Burdet, 2026 · Google Business Profile, 2026</p>
           </div>
         </div>
 
@@ -298,15 +298,27 @@ const stats6 = [
 
 <style scoped>
 .section-blue {
-  background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 40%, #2563eb 70%, #3b82f6 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-blue-900) 0%,
+    var(--color-blue-700) 40%,
+    var(--color-blue-600) 70%,
+    var(--color-blue-500) 100%
+  );
 }
 
 .section-gray {
-  background: linear-gradient(135deg, #ffffff 0%, #f3f4f6 30%, #e5e7eb 60%, #d1d5db 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-white) 0%,
+    var(--color-gray-100) 30%,
+    var(--color-gray-200) 60%,
+    var(--color-gray-300) 100%
+  );
 }
 
 .section-dark {
-  background: #111110;
+  background: var(--color-gray-950);
 }
 
 .grain-overlay {

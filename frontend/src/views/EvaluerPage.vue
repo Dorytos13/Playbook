@@ -7,7 +7,7 @@
         Évaluer les solutions
       </span>
       <h1 class="font-display text-5xl font-medium text-gray-900 leading-snug mb-3">
-        Essayer avant d'<em class="italic text-blue-700">choisir</em>.
+        Essayer avant de<em class="italic text-blue-700">choisir</em>.
       </h1>
       <p class="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
         Le périmètre est arrêté. Reste à choisir avec quoi le traiter, et à vérifier que ce choix tient avant de s'y engager.
@@ -74,13 +74,13 @@
           </div>
 
           <!-- Onglets -->
-<div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden mb-8" style="background:#e5e7eb">            <button
+<div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden mb-8 bg-gray-200">            <button
               v-for="(t, i) in temps"
               :key="t.num"
               type="button"
               @click="aller(i)"
               class="px-4 py-6 flex flex-col items-center text-center transition-colors duration-150"
-              :style="{ background: i === actif ? '#111110' : '#f9fafb' }"
+              :class="i === actif ? 'bg-gray-950' : 'bg-gray-50'"
             >
               <span
                 class="font-display text-2xl font-medium leading-none mb-2"
@@ -256,32 +256,32 @@
           <div class="relative z-10">
             <div class="grid grid-cols-3 gap-12 items-start">
               <div class="col-span-2">
-                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4" style="border:0.5px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8)">
+                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4 border-[0.5px] border-white/30 text-white/80">
                   Pour aller plus loin
                 </span>
                 <h2 class="font-display text-2xl font-medium leading-snug mb-4 text-white">
                   Le sur-mesure n'est plus réservé aux gros budgets
                 </h2>
-                <p class="text-sm leading-relaxed mb-3" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-3 text-white/75">
                   Le réflexe est bien installé : une petite structure, une équipe sans compétence technique, un budget serré... donc une plateforme toute faite. Le sur-mesure est écarté avant même d'être évalué, parce qu'il évoque des mois de développement et une facture hors de portée.
                 </p>
-                <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-8 text-white/75">
                   Ce réflexe mérite d'être réexaminé.
                 </p>
               </div>
               <div></div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl overflow-hidden mb-8" style="background:rgba(255,255,255,0.2)">
-              <div class="px-8 py-8" style="background:rgba(255,255,255,0.08)">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl overflow-hidden mb-8 bg-white/20">
+              <div class="px-8 py-8 bg-white/8">
                 <p class="font-display text-lg font-medium mb-3 text-white">Ce qui a changé</p>
-                <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed text-white/75">
                   L'assistance par intelligence artificielle a fait chuter le coût de conception. Ce qui demandait des semaines s'obtient en quelques jours, à condition de savoir cadrer le travail et vérifier ce qui sort. Un ingénieur des médias a précisément ces compétences.
                 </p>
               </div>
-              <div class="px-8 py-8" style="background:rgba(255,255,255,0.08)">
+              <div class="px-8 py-8 bg-white/8">
                 <p class="font-display text-lg font-medium mb-3 text-white">Ce qui n'a pas changé</p>
-                <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed text-white/75">
                   Le coût d'exploitation. Une solution sur mesure se maintient aussi longtemps qu'elle sert : mises à jour, correctifs de sécurité, adaptation aux services externes. Pour ça, l'entreprise n'a souvent pas les compétences nécessaires ce qui nécessite une resource externe.
                 </p>
               </div>
@@ -289,16 +289,16 @@
 
             <div class="grid grid-cols-3 gap-12 items-start">
               <div class="col-span-2">
-                <p class="text-xs font-medium uppercase tracking-widest mb-3" style="color:rgba(255,255,255,0.5)">Le critère qui tranche</p>
-                <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.75)">
+                <p class="text-xs font-medium uppercase tracking-widest mb-3 text-white/50">Le critère qui tranche</p>
+                <p class="text-sm leading-relaxed mb-8 text-white/75">
                   La question maintnant c'est <strong class="font-medium text-white">« qui maintiendra, dans la durée ? »</strong>. Une entreprise avec un prestataire attitré ou une personne compétente en interne peut assumer du sur-mesure. En revanche, une entreprise sans personne pour reprendre la main ne le peut pas, quelle que soit la facilité avec laquelle elle aura été construite.
                 </p>
               </div>
               <div></div>
             </div>
 
-            <div class="rounded-xl p-6" style="background:rgba(255,255,255,0.08)">
-              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.9)">
+            <div class="rounded-xl p-6 bg-white/8">
+              <p class="text-sm leading-relaxed text-white/90">
                 Le point à retenir n'est pas que le sur-mesure soit devenu la bonne réponse. C'est qu'il est <strong class="font-medium">redevenu une option à évaluer</strong>, là où on l'écartait par principe. Le mettre dans la comparaison ne coûte rien ; l'en exclure d'emblée peut coûter des mois de contournements sur une plateforme qui ne convenait pas. L'exemple pratique chez Photogare en a fait la démonstration.
               </p>
             </div>

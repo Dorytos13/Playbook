@@ -56,14 +56,14 @@
           </div>
 
           <!-- Onglets -->
-          <div class="grid grid-cols-6 gap-px rounded-xl overflow-hidden mb-8" style="background:#e5e7eb">
+          <div class="grid grid-cols-6 gap-px rounded-xl overflow-hidden mb-8 bg-gray-200">
             <button
               v-for="(t, i) in temps"
               :key="t.num"
               type="button"
               @click="aller(i)"
               class="px-4 py-6 flex flex-col items-center text-center transition-colors duration-150"
-              :style="{ background: i === actif ? '#111110' : '#f9fafb' }"
+              :class="i === actif ? 'bg-gray-950' : 'bg-gray-50'"
             >
               <span
                 class="font-display text-2xl font-medium leading-none mb-2"
@@ -193,28 +193,28 @@
           <div class="relative z-10">
             <div class="grid grid-cols-3 gap-12 items-start">
               <div class="col-span-2">
-                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4" style="border:0.5px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8)">
+                <span class="text-xs px-3 py-1 rounded-full inline-block mb-4 border-[0.5px] border-white/30 text-white/80">
                   Pour aller plus loin
                 </span>
-                <h2 class="font-display text-2xl font-medium leading-snug mb-4" style="color:#ffffff">
+                <h2 class="font-display text-2xl font-medium leading-snug mb-4 text-white">
                   Quand le recueil client est hors de portée ou inexistant
                 </h2>
-                <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.75)">
+                <p class="text-sm leading-relaxed mb-8 text-white/75">
                   Si une entreprise n'a ni base de données, ni newsletter, ni canal de diffusion, renoncer au questionnaire ne veut pas dire renoncer à des données. Pour cela il y a trois autres approches possibles pour récupérer des insights.
                 </p>
               </div>
               <div></div>
             </div>
 
-            <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden mb-8" style="background:rgba(255,255,255,0.2)">
-              <div v-for="r in replis" :key="r.nom" class="px-8 py-8" style="background:rgba(255,255,255,0.08)">
-                <p class="font-display text-base font-medium mb-3" style="color:#ffffff">{{ r.nom }}</p>
-                <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.75)">{{ r.desc }}</p>
+            <div class="grid grid-cols-3 gap-px rounded-xl overflow-hidden mb-8 bg-white/20">
+              <div v-for="r in replis" :key="r.nom" class="px-8 py-8 bg-white/8">
+                <p class="font-display text-base font-medium mb-3 text-white">{{ r.nom }}</p>
+                <p class="text-sm leading-relaxed text-white/75">{{ r.desc }}</p>
               </div>
             </div>
 
             <div class="rounded-xl" >
-              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.9)">
+              <p class="text-sm leading-relaxed text-white/90">
                 Et si ces solutions ne sont pas envisageables, reconstruire un parcours client à partir des sources internes et le valider avec l'équipe reste une hypothèse solidement étayée. Ce n'est pas une donnée mesurée mais selon les besoins, cela suffit pour établir un diagnostic et identifier les frictions.
               </p>
             </div>
@@ -287,63 +287,62 @@
         <div class="section-dark rounded-2xl px-12 py-12 relative overflow-hidden">
           <div class="grain-overlay"></div>
           <div class="relative z-10">
-            <span class="text-xs px-3 py-1 rounded-full inline-block mb-8"
-                  style="border:0.5px solid #374151;color:#9ca3af">
+            <span class="text-xs px-3 py-1 rounded-full inline-block mb-8 border-[0.5px] border-gray-700 text-gray-400">
               Chez Photogare
             </span>
-            <h2 class="font-display text-2xl font-medium leading-snug mb-8 max-w-xl" style="color:#ffffff">
+            <h2 class="font-display text-2xl font-medium leading-snug mb-8 max-w-xl text-white">
               Quatre sources croisées
             </h2>
 
             <!-- Le cadre temporel -->
             <div class="rounded-xl p-6 mb-8">
-              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Le cadre du travail de Bachelor</p>
-              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.85)">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2 text-gray-500">Le cadre du travail de Bachelor</p>
+              <p class="text-sm leading-relaxed text-white/85">
                 Le cadre du travail de Bachelor fixait la pré-étude à quatre semaines. Un mandat ordinaire ne fonctionne pas ainsi : la durée du diagnostic se négocie, et elle dépend de ce qu'on trouve en chemin. Ceci a donné lieu à une priorisation des sources.
               </p>
             </div>
 
             <!-- L'observation, en continu -->
-            <div class="rounded-xl p-6 mb-8" style="background:#111110;border:1px solid #1f2937">
-              <p class="font-display text-sm font-medium mb-2" style="color:#ffffff">L'observation</p>
-              <p class="text-sm leading-relaxed" style="color:#6b7280">
+            <div class="rounded-xl p-6 mb-8 bg-gray-950 border border-gray-800">
+              <p class="font-display text-sm font-medium mb-2 text-white">L'observation</p>
+              <p class="text-sm leading-relaxed text-gray-500">
                 Aucune phase d'immersion n'a été planifiée séparément. Le travail se déroulant directement dans le magasin, l'observation s'est faite en continu, au fil des journées passées sur place.
               </p>
             </div>
 
             <!-- Les quatre sources -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl overflow-hidden mb-8 mt-px" style="background:#1f2937">
-              <div v-for="s in photogareSources" :key="s.nom" class="px-8 py-7" style="background:#111110">
-                <p class="font-display text-sm font-medium mb-2" style="color:#ffffff">{{ s.nom }}</p>
-                <p class="text-sm leading-relaxed" style="color:#6b7280">{{ s.desc }}</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl overflow-hidden mb-8 mt-px bg-gray-800">
+              <div v-for="s in photogareSources" :key="s.nom" class="px-8 py-7 bg-gray-950">
+                <p class="font-display text-sm font-medium mb-2 text-white">{{ s.nom }}</p>
+                <p class="text-sm leading-relaxed text-gray-500">{{ s.desc }}</p>
               </div>
             </div>
 
             <!-- Ce que le croisement a révélé -->
             <div class="rounded-xl p-6 mb-5">
-              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce que le croisement a révélé</p>
-              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.85)">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2 text-gray-500">Ce que le croisement a révélé</p>
+              <p class="text-sm leading-relaxed text-white/85">
                 L'équipe manquait de temps pour se digitaliser parce qu'elle en consacrait une part considérable à des tâches manuelles, et ces tâches persistaient faute d'outils et de temps pour en trouver. Pendant ce temps la demande augmente, sans capacité opérationnelle pour l'absorber.
               </p>
             </div>
 
             <!-- Le renoncement, et son coût -->
             <div class="rounded-xl p-6 mb-5">
-              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce que j'ai choisi de ne pas faire</p>
-              <p class="text-sm leading-relaxed mb-3" style="color:rgba(255,255,255,0.85)">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2 text-gray-500">Ce que j'ai choisi de ne pas faire</p>
+              <p class="text-sm leading-relaxed mb-3 text-white/85">
                 Quatre semaines obligent à prioriser. J'ai décidé de ne pas cartographier les processus internes en détail : après les entretiens et les journées passées sur place, ils me paraissaient suffisamment clairs.
                 C'était une erreur d'appréciation. En phase de réalisation, plusieurs règles métier que je croyais simples se sont révélées complexes voir impossibles à reproduire dans l'outil retenu. Le blocage n'est apparu qu'une fois le travail en bonne voix, et il a fini par remettre en question la stratégie elle-même.
 
               </p>
-              <p class="text-sm leading-relaxed mb-3" style="color:#9ca3af">
+              <p class="text-sm leading-relaxed mb-3 text-gray-400">
                 C'est exactement le piège décrit plus haut, et il s'est refermé sur des éléments clés d'un processus, comme par exemple des tarifs dégressifs irréguliers liés à un service.
               </p>
             </div>
 
             <!-- Ce qui n'était pas possible -->
             <div class="rounded-xl p-6">
-              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce qui n'a pas été possible</p>
-              <p class="text-sm leading-relaxed mb-3" style="color:#9ca3af">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2 text-gray-500">Ce qui n'a pas été possible</p>
+              <p class="text-sm leading-relaxed mb-3 text-gray-400">
                 Une étude quantitative auprès de la clientèle avait été envisagée, mais l'entreprise ne disposait d'aucun canal pour joindre ses clients. Le nombre de réponses atteignable n'aurait pas garanti la pertinence des résultats.
                 Les trois parcours clients reposent donc sur une reconstitution validée en interne. Cette limite a été assumée dès la pré-étude et elle a directement motivé l'un des premiers besoins retenus : la centralisation des données clients. Le diagnostic a ainsi révélé son propre angle mort.
               </p>
@@ -516,15 +515,27 @@ const photogareSources = [
 
 <style scoped>
 .section-blue {
-  background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 40%, #2563eb 70%, #3b82f6 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-blue-900) 0%,
+    var(--color-blue-700) 40%,
+    var(--color-blue-600) 70%,
+    var(--color-blue-500) 100%
+  );
 }
 
 .section-gray {
-  background: linear-gradient(135deg, #ffffff 0%, #f3f4f6 30%, #e5e7eb 60%, #d1d5db 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-white) 0%,
+    var(--color-gray-100) 30%,
+    var(--color-gray-200) 60%,
+    var(--color-gray-300) 100%
+  );
 }
 
 .section-dark {
-  background: #111110;
+  background: var(--color-gray-950);
 }
 
 .grain-overlay {
