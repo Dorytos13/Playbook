@@ -35,7 +35,7 @@
                 Il faut donc la reconstituer à partir de sources partielles, dont aucune ne suffit seule. <strong class="font-medium text-gray-700">La fiabilité du diagnostic ne vient pas de la profondeur d'une source, mais du croisement de plusieurs.</strong>
               </p>
               <p class="text-sm text-gray-500 leading-relaxed">
-                Chaque temps prépare le suivant. Sauter l'un d'eux est une décision à prendre mais il pourrait nuire à la qualité du diagnostic.
+                Chaque étape prépare le suivant. Sauter l'un d'eux est une décision à prendre mais il pourrait nuire à la qualité du diagnostic.
               </p>
             </div>
             <div></div>
@@ -285,7 +285,70 @@
 
         <!-- Chez Photogare -->
         <div class="section-dark rounded-2xl px-12 py-12 relative overflow-hidden">
-          <!-- A REMPLIR DEMAIN -->
+          <div class="grain-overlay"></div>
+          <div class="relative z-10">
+            <span class="text-xs px-3 py-1 rounded-full inline-block mb-8"
+                  style="border:0.5px solid #374151;color:#9ca3af">
+              Chez Photogare
+            </span>
+            <h2 class="font-display text-2xl font-medium leading-snug mb-8 max-w-xl" style="color:#ffffff">
+              Quatre sources croisées
+            </h2>
+
+            <!-- Le cadre temporel -->
+            <div class="rounded-xl p-6 mb-8">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Le cadre du travail de Bachelor</p>
+              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.85)">
+                Le cadre du travail de Bachelor fixait la pré-étude à quatre semaines. Un mandat ordinaire ne fonctionne pas ainsi : la durée du diagnostic se négocie, et elle dépend de ce qu'on trouve en chemin. Ceci a donné lieu à une priorisation des sources.
+              </p>
+            </div>
+
+            <!-- L'observation, en continu -->
+            <div class="rounded-xl p-6 mb-8" style="background:#111110;border:1px solid #1f2937">
+              <p class="font-display text-sm font-medium mb-2" style="color:#ffffff">L'observation</p>
+              <p class="text-sm leading-relaxed" style="color:#6b7280">
+                Aucune phase d'immersion n'a été planifiée séparément. Le travail se déroulant directement dans le magasin, l'observation s'est faite en continu, au fil des journées passées sur place.
+              </p>
+            </div>
+
+            <!-- Les quatre sources -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl overflow-hidden mb-8 mt-px" style="background:#1f2937">
+              <div v-for="s in photogareSources" :key="s.nom" class="px-8 py-7" style="background:#111110">
+                <p class="font-display text-sm font-medium mb-2" style="color:#ffffff">{{ s.nom }}</p>
+                <p class="text-sm leading-relaxed" style="color:#6b7280">{{ s.desc }}</p>
+              </div>
+            </div>
+
+            <!-- Ce que le croisement a révélé -->
+            <div class="rounded-xl p-6 mb-5">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce que le croisement a révélé</p>
+              <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.85)">
+                L'équipe manquait de temps pour se digitaliser parce qu'elle en consacrait une part considérable à des tâches manuelles, et ces tâches persistaient faute d'outils et de temps pour en trouver. Pendant ce temps la demande augmente, sans capacité opérationnelle pour l'absorber.
+              </p>
+            </div>
+
+            <!-- Le renoncement, et son coût -->
+            <div class="rounded-xl p-6 mb-5">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce que j'ai choisi de ne pas faire</p>
+              <p class="text-sm leading-relaxed mb-3" style="color:rgba(255,255,255,0.85)">
+                Quatre semaines obligent à prioriser. J'ai décidé de ne pas cartographier les processus internes en détail : après les entretiens et les journées passées sur place, ils me paraissaient suffisamment clairs.
+                C'était une erreur d'appréciation. En phase de réalisation, plusieurs règles métier que je croyais simples se sont révélées complexes voir impossibles à reproduire dans l'outil retenu. Le blocage n'est apparu qu'une fois le travail en bonne voix, et il a fini par remettre en question la stratégie elle-même.
+
+              </p>
+              <p class="text-sm leading-relaxed mb-3" style="color:#9ca3af">
+                C'est exactement le piège décrit plus haut, et il s'est refermé sur des éléments clés d'un processus, comme par exemple des tarifs dégressifs irréguliers liés à un service.
+              </p>
+            </div>
+
+            <!-- Ce qui n'était pas possible -->
+            <div class="rounded-xl p-6">
+              <p class="text-xs font-medium uppercase tracking-widest mb-2" style="color:#6b7280">Ce qui n'a pas été possible</p>
+              <p class="text-sm leading-relaxed mb-3" style="color:#9ca3af">
+                Une étude quantitative auprès de la clientèle avait été envisagée, mais l'entreprise ne disposait d'aucun canal pour joindre ses clients. Le nombre de réponses atteignable n'aurait pas garanti la pertinence des résultats.
+                Les trois parcours clients reposent donc sur une reconstitution validée en interne. Cette limite a été assumée dès la pré-étude et elle a directement motivé l'un des premiers besoins retenus : la centralisation des données clients. Le diagnostic a ainsi révélé son propre angle mort.
+              </p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -334,7 +397,7 @@ const temps = [
     outil: {
       nom: "Guide d'entretien",
       desc: "Bases d'un guide d'entretien semi-directif, à compléter selon le contexte",
-      notion: '#',
+      notion: 'https://outilsplaybook.notion.site/guide-d-entretien',
       fichier: '/gabarits/guide-entretien.pdf',
     },
   },
@@ -351,8 +414,8 @@ const temps = [
     outil: {
       nom: "Audit de l'écosystème digital",
       desc: 'Grille de relevé, canal par canal',
-      notion: '#',
-      fichier: '/gabarits/audit-ecosysteme-digital.xlsx',
+      notion: 'https://outilsplaybook.notion.site/audit-ecosysteme-digital',
+      fichier: '/gabarits/audit-ecosysteme-digital.pdf',
     },
   },
   {
@@ -427,6 +490,26 @@ const criteres = [
 ]
 
 const coches = ref(criteres.map(() => false))
+
+const photogareSources = [
+  {
+    nom: 'Les entretiens',
+    desc: "Deux entretiens semi-directifs d'environ 75 minutes avec le directeur et la future responsable, structurés autour de cinq axes, puis mis en regard dans une synthèse croisée. L'entreprise ne disposait ni de documentation interne, ni de base de données client : leur parole constituait la principale source sur le fonctionnement réel.",
+  },
+  {
+    nom: "L'audit",
+    desc: "Fiche d'établissement, réseaux sociaux, site, référencement local et réputation, restitués en tableaux de forces et de points d'amélioration par canal.",
+  },
+  {
+    nom: 'Le benchmark',
+    desc: "Cinq acteurs romands évalués sur huit critères, dont deux entretenant une relation de sous-traitance avec l'entreprise.",
+  },
+  {
+    nom: 'Les parcours clients',
+    desc: 'Trois parcours, un par service, construits à partir des sources précédentes et des échanges observés au comptoir.',
+  },
+]
+
 
 
 </script>
