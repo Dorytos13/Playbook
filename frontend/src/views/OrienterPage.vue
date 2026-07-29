@@ -1,5 +1,5 @@
 <template>
-    <div class="font-sans min-h-screen bg-gray-100">
+    <div class="font-sans min-h-screen" style="background:#e8e8e4">
         <!-- Hero -->
         <header class="px-6 xl:px-10 pt-12 mb-12 text-center">
         <span class="inline-block font-display text-xs font-medium tracking-widest text-gray-400 border border-gray-400 rounded-full px-3 py-1 mb-5">

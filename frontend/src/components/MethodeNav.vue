@@ -103,7 +103,7 @@ const etapes = [
   { slug: 'contexte',    numero: '01', titre: "Comprendre avant d'agir", route: '/contexte' },
   { slug: 'diagnostic',  numero: '02', titre: 'Diagnostiquer', route: '/diagnostic' },
   { slug: 'orienter',    numero: '03', titre: 'Orienter le projet', route: '/orienter' },
-  { slug: 'evaluer',     numero: '04', titre: 'Évaluer les solutions' },
+  { slug: 'evaluer',     numero: '04', titre: 'Évaluer les solutions', route: '/evaluer' },
   { slug: 'organiser',   numero: '05', titre: 'Organiser le projet'},
   { slug: 'mise-oeuvre', numero: '06', titre: 'Mettre en œuvre',},
   { slug: 'mesurer',     numero: '07', titre: 'Mesurer et faire évoluer'},
