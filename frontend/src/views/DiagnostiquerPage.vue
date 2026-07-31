@@ -7,7 +7,7 @@
         Diagnostiquer
       </span>
       <h1 class="font-display text-5xl font-medium text-gray-900 leading-snug mb-3">
-        Établir un <em class="italic text-blue-700">diagnostic</em>.
+        Partir de ce qui <em class="italic text-blue-700">existe</em>.
       </h1>
       <p class="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
         S'immiser dans l'entreprise pour comprendre les besoins et reconstituer son fonctionnement réel afin d'en tirer un diagnostic.

@@ -100,11 +100,11 @@ const { replie, basculer } = useMenu()
 
 // Ajouter `route: '/...'` à une étape la rend cliquable et gère son état actif.
 const etapes = [
-  { slug: 'contexte',    numero: '01', titre: "Comprendre avant d'agir", route: '/contexte' },
-  { slug: 'diagnostic',  numero: '02', titre: 'Diagnostiquer', route: '/diagnostic' },
+  { slug: 'contexte',    numero: '01', titre: "Se mettre dans le contexte", route: '/contexte' },
+  { slug: 'diagnostic',  numero: '02', titre: 'Établir un diagnostic', route: '/diagnostic' },
   { slug: 'orienter',    numero: '03', titre: 'Orienter le projet', route: '/orienter' },
   { slug: 'evaluer',     numero: '04', titre: 'Évaluer les solutions', route: '/evaluer' },
-  { slug: 'organiser',   numero: '05', titre: 'Organiser le projet'},
+  { slug: 'organiser',   numero: '05', titre: 'Organiser le projet', route: '/organiser' },
   { slug: 'mise-oeuvre', numero: '06', titre: 'Mettre en œuvre',},
   { slug: 'mesurer',     numero: '07', titre: 'Mesurer et faire évoluer'},
 ]
