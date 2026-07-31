@@ -4,6 +4,8 @@ import ContextePage from '../views/ContextePage.vue'
 import DiagnostiquerPage from '../views/DiagnostiquerPage.vue'
 import OrienterPage from '../views/OrienterPage.vue'
 import EvaluerPage from '../views/EvaluerPage.vue'
+import OrganiserPage from '../views/OrganiserPage.vue'
+import ContactPage from '../views/ContactPage.vue'
 
 const routes = [
   { path: '/',         component: HomePage },
@@ -11,6 +13,8 @@ const routes = [
   { path: '/diagnostic', component: DiagnostiquerPage },
   { path: '/orienter', component: OrienterPage },
   { path: '/evaluer', component: EvaluerPage },
+  { path: '/organiser', component: OrganiserPage },
+  { path: '/contact', component: ContactPage },
 ]
 
 export default createRouter({

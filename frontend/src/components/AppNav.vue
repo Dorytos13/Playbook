@@ -31,5 +31,6 @@ const route = useRoute()
 const liens = [
   { to: '/',       label: 'Accueil' },
   { to: '/outils', label: 'Outils' },
+  { to: '/contact', label: 'Contact' },
 ]
 </script>
