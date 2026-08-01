@@ -10,7 +10,7 @@
         Partir de ce qui <em class="italic text-blue-700">existe</em>.
       </h1>
       <p class="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
-        S'immiser dans l'entreprise pour comprendre les besoins et reconstituer son fonctionnement réel afin d'en tirer un diagnostic.
+        S'immiscer dans l'entreprise pour comprendre les besoins et reconstituer son fonctionnement réel afin d'en tirer un diagnostic.
       </p>
     </header>
 
@@ -29,13 +29,13 @@
                 En micro-entreprise, tout est dans la tête
               </h2>
               <p class="text-sm text-gray-500 leading-relaxed mb-3">
-                Quelque chose qui a pu être remarquer et qui semble être une hypothèse valable est que dans une petite structure, il n'existe ni documentation interne, ni processus écrit. L'information sur le fonctionnement réel est souvent répartie entre les personnes, sous forme d'habitudes qu'elles n'ont jamais eu besoin de formuler.
+                Dans une petite structure, il n'existe le plus souvent ni documentation interne, ni processus écrit. L'information sur le fonctionnement réel est souvent répartie entre les personnes, sous forme d'habitudes qu'elles n'ont jamais eu besoin de formuler.
               </p>
               <p class="text-sm text-gray-500 leading-relaxed mb-3">
                 Il faut donc la reconstituer à partir de sources partielles, dont aucune ne suffit seule. <strong class="font-medium text-gray-700">La fiabilité du diagnostic ne vient pas de la profondeur d'une source, mais du croisement de plusieurs.</strong>
               </p>
               <p class="text-sm text-gray-500 leading-relaxed">
-                Chaque étape prépare le suivant. Sauter l'un d'eux est une décision à prendre mais il pourrait nuire à la qualité du diagnostic.
+                Chaque étape prépare la suivante. Sauter l'une d'elles est une décision à prendre, mais elle pourrait nuire à la qualité du diagnostic.
               </p>
             </div>
             <div></div>
@@ -200,7 +200,7 @@
                   Quand le recueil client est hors de portée ou inexistant
                 </h2>
                 <p class="text-sm leading-relaxed mb-8 text-white/75">
-                  Si une entreprise n'a ni base de données, ni newsletter, ni canal de diffusion, renoncer au questionnaire ne veut pas dire renoncer à des données. Pour cela il y a trois autres approches possibles pour récupérer des insights.
+                  Si une entreprise n'a ni base de données, ni newsletter, ni canal de diffusion, renoncer au questionnaire ne veut pas dire renoncer à des données. Il existe alors trois autres approches pour récupérer des données.
                 </p>
               </div>
               <div></div>
@@ -270,14 +270,14 @@
              Croire qu'on a compris parce que ça paraît simple
             </h2>
             <p class="text-sm text-gray-500 leading-relaxed mb-4">
-             On cartographie volontiers les processus qui semblent compliqués, et on passe vite sur ceux qui paraissent évidents ou qu'on croit connaitre, un processus de commande, des tarifs, des envois. C'est pourtant là que se logent les règles particulières qu'une entreprise s'est construites au fil des années et que personne ne pense à mentionner, justement parce qu'elles vont de soi.
+             On cartographie volontiers les processus qui semblent compliqués, et on passe vite sur ceux qui paraissent évidents ou qu'on croit connaître, un processus de commande, des tarifs, des envois. C'est pourtant là que se logent les règles particulières qu'une entreprise s'est construites au fil des années et que personne ne pense à mentionner, justement parce qu'elles vont de soi.
             </p>
             <p class="text-sm text-gray-500 leading-relaxed mb-4">
               Le coût de cet oubli n'apparaît pas au diagnostic. Il apparaît en réalisation, une fois la solution choisie et le travail engagé. À ce stade, découvrir qu'un processus ne rentre pas dans l'outil retenu ne se règle plus en quelques heures : cela peut remettre en cause la stratégie entière.
             </p>
             <div class="rounded-xl bg-blue-50 border border-blue-100 p-5">
               <p class="text-sm text-gray-500 leading-relaxed">
-                <strong class="font-medium text-gray-700">Prendre le temps de décrire un processus qui paraît simple coûte une heure.</strong> Le découvrir en cours de route en coûte beaucoup plus, l'exemple de l'expérience chez Photogare ci-dessous en donne un exemple.
+                <strong class="font-medium text-gray-700">Prendre le temps de décrire un processus qui paraît simple coûte une heure.</strong> Le découvrir en cours de route en coûte beaucoup plus, l'expérience chez Photogare ci-dessous en donne une illustration.
               </p>
             </div>
           </div>
@@ -331,7 +331,7 @@
               <p class="text-xs font-medium uppercase tracking-widest mb-2 text-gray-500">Ce que j'ai choisi de ne pas faire</p>
               <p class="text-sm leading-relaxed mb-3 text-white/85">
                 Quatre semaines obligent à prioriser. J'ai décidé de ne pas cartographier les processus internes en détail : après les entretiens et les journées passées sur place, ils me paraissaient suffisamment clairs.
-                C'était une erreur d'appréciation. En phase de réalisation, plusieurs règles métier que je croyais simples se sont révélées complexes voir impossibles à reproduire dans l'outil retenu. Le blocage n'est apparu qu'une fois le travail en bonne voix, et il a fini par remettre en question la stratégie elle-même.
+                C'était une erreur d'appréciation. En phase de réalisation, plusieurs règles métier que je croyais simples se sont révélées complexes voire impossibles à reproduire dans l'outil retenu. Le blocage n'est apparu qu'une fois le travail en bonne voie, et il a fini par remettre en question la stratégie elle-même.
 
               </p>
               <p class="text-sm leading-relaxed mb-3 text-gray-400">
@@ -378,21 +378,21 @@ const temps = [
     pourquoi: "On ne sait pas quoi demander tant qu'on n'a pas vu travailler. Les contournements, en particulier, apparaissent rarement dans un entretien : le fichier tenu en parallèle, la note collée sur l'écran, le carnet sous le comptoir. Ils font tellement partie du quotidien qu'on ne pense plus à les signaler. Ce sont pourtant eux qui décideront de la réussite ou de l'échec d'un nouvel outil.",
     faire: [
       "Suivre le travail réel sur un cycle complet, en retrait. Noter les gestes, les interruptions, les temps d'attente, les allers-retours.",
-      "Relever ce qui traîne : papiers, écrans ouverts, outils dont personne n'a parlé. Mais attention il ne s'agit pas de proposer quelque chose à ce stade on regarde en vue de comprendre les enjeux.",
+      "Relever ce qui traîne : papiers, écrans ouverts, outils dont personne n'a parlé. Mais attention, il ne s'agit pas de proposer quelque chose. À ce stade on regarde en vue de comprendre les enjeux.",
     ],
-    piege: "Observer un jour creux. Si l'activité est saisonnière ou irrégulière, choisir délibérément une période représentative qui peut être définie avec l'aide des employés. Sinon il s'agira de le mentionner",
+    piege: "Observer un jour creux. Si l'activité est saisonnière ou irrégulière, choisir délibérément une période représentative qui peut être définie avec l'aide des employés. Sinon il s'agira de le mentionner.",
     outil: null,
   },
   {
     num: '②', verbe: 'Interroger', objet: "l'équipe", cle: 'Entretiens',
     titre: "Interroger l'équipe",
     pourquoiTitre: "Pourquoi après l'immersion",
-    pourquoi: "Souvent l'observation soulève des questions auquels on aurait pas pensé initialement. On peut demander « pourquoi vous notez cette commande à la main ? » au lieu de « comment traitez-vous les commandes ? ». La première cible un point observé etproduit une information exploitable, la seconde produit la version officielle du processus d'après une personne.",
+    pourquoi: "Souvent l'observation soulève des questions auxquelles on n'aurait pas pensé initialement. On peut demander « pourquoi vous notez cette commande à la main ? » au lieu de « comment traitez-vous les commandes ? ». La première cible un point observé et produit une information exploitable, la seconde produit la version officielle du processus d'après une personne.",
     faire: [
       "Un entretien semi-directif avec un maximum de personnes qui font tourner la structure, et pas seulement le dirigeant. Le dirigeant a une vision globale mais pas forcément la connaissance des détails. L'équipe connaît les détails mais pas forcément la vision globale.",
-      "Puis, ce qui aura d'avantage de valeur est la <strong class='font-medium text-gray-700'>synthèse croisée</strong> des regards. Relever les contradictions ou au contraire des éléments similaires sont souvent l'information la plus précieuse.",
+      "Puis, ce qui aura davantage de valeur est la <strong class='font-medium text-gray-700'>synthèse croisée</strong> des regards. Les contradictions, ou au contraire les convergences, sont souvent l'information la plus précieuse.",
     ],
-    piege: "Ne parler qu'aux enthousiastes. Biensur s'il y en a et si l'entreprise le permet, il faut délibérément interroger les réticents et ceux qui sont mal à l'aise avec le numérique : ce sont eux qui portent le risque d'échec de l'adoption.",
+    piege: "Ne parler qu'aux enthousiastes. Bien sûr s'il y en a et si l'entreprise le permet, il faut délibérément interroger les réticents et ceux qui sont mal à l'aise avec le numérique : ce sont eux qui portent le risque d'échec de l'adoption.",
     outil: {
       nom: "Guide d'entretien",
       desc: "Bases d'un guide d'entretien semi-directif, à compléter selon le contexte",
@@ -409,7 +409,7 @@ const temps = [
       "Analyse du site, du référencement local, de la fiche d'établissement, des réseaux sociaux, de la réputation en ligne.",
       "Et si cela est possible ou semble nécessaire côté interne : le parc d'outils réellement utilisés, <strong class='font-medium text-gray-700'>y compris ceux que personne n'a officialisés</strong> — le tableur de facturation, le service de transfert gratuit, le compte partagé. Ils font partie du système même s'ils ne figurent nulle part.",
     ],
-    piege: "Confondre l'audit et le jugement esthétique. On produit un relevé factuel et vérifiable, canal par canal, pas un avis sur le graphisme, bien que celui-ci puisse faire l'objet d'une analyse spéficique selon le besoin.",
+    piege: "Confondre l'audit et le jugement esthétique. On produit un relevé factuel et vérifiable, canal par canal, pas un avis sur le graphisme, bien que celui-ci puisse faire l'objet d'une analyse spécifique selon le besoin.",
     outil: {
       nom: "Audit de l'écosystème digital",
       desc: 'Grille de relevé, canal par canal',
@@ -421,13 +421,13 @@ const temps = [
     num: '④', verbe: 'Écouter', objet: 'la clientèle', cle: 'Clientèle',
     titre: 'Écouter la clientèle',
     pourquoiTitre: 'Pourquoi à ce moment',
-    pourquoi: "On a compris l'entreprise vue de l'intérieur : c'est le moment de la confronter à ceux pour qui elle travaille. Effectué plus tôt, on peut ne pas savoir quoi demander et ne pas prendre assez en compte le contexte spécifique de l'entreprise.",
+    pourquoi: "On a compris l'entreprise vue de l'intérieur : c'est le moment de la confronter à ceux pour qui elle travaille. Effectuée plus tôt, cette étape risque de tourner court : on ne sait pas encore quoi demander, ni comment tenir compte du contexte de l'entreprise.",
     faire: [
-      "Deux approches, et le choix dépend de la question mais l'un n'est pas meilleur que l'autre, au contraire, ils se complètent.",
-      "L'étude de marché <strong class='font-medium text-gray-700'>qualitative</strong> permet d'obtenir des ressentis, des habitudes, des représentations, des signaux faibles et se font sous le forme d'entretien semi-directif individuel ou des focus groupes.",
-      "L'étude de marché <strong class='font-medium text-gray-700'>quantitative</strong> permet quant à elle, au travers d'un questionnaire de chiffer ou quantifier des éléments. Dans ce contexte innutile de poser des questions ouvertes, les personnes ne prendront pas le temps de répondre et les réponses seront peu exploitables.",
+      "Deux approches, et le choix dépend de la question mais l'une n'est pas meilleure que l'autre, au contraire, ils se complètent.",
+      "L'étude de marché <strong class='font-medium text-gray-700'>qualitative</strong> permet d'obtenir des ressentis, des habitudes, des représentations, des signaux faibles et se fait sous la forme d'entretiens semi-directifs individuels ou de focus groups.",
+      "L'étude de marché <strong class='font-medium text-gray-700'>quantitative</strong> permet quant à elle, au travers d'un questionnaire, de chiffrer ou de quantifier des éléments. Dans ce contexte, inutile de poser des questions ouvertes, les personnes ne prendront pas le temps de répondre et les réponses seront peu exploitables.",
     ],
-    piege: "prévoir une étude de marché sans problématisation préalable. Il est nécessaire de savoir ce que l'on cherche à comprendre avant de poser des questions. Le questionnaire doit être construit en fonction de la problématique et non l'inverse.",
+    piege: "Prévoir une étude de marché sans problématisation préalable. Il est nécessaire de savoir ce que l'on cherche à comprendre avant de poser des questions. Le questionnaire doit être construit en fonction de la problématique et non l'inverse.",
     outil: null,
   },
   {
@@ -437,7 +437,7 @@ const temps = [
     pourquoi: "On ne compare bien que ce qu'on connaît. Un benchmark mené en ouverture produit une liste de fonctionnalités enviées, qui oriente le projet vers ce que font les autres. Mené en fin de diagnostic, il répond à une question précise : <strong class='font-medium text-gray-700'>ce retard est-il un handicap sectoriel ou une fenêtre d'opportunité ?</strong>",
     faire: [
       "Quatre à six acteurs comparables, évalués sur une grille de critères. Le point décisif : une <strong class='font-medium text-gray-700'>échelle descriptive par palier</strong>, qui définit ce que vaut un 3 ou un 8. Sans elle, la note n'est qu'une impression et ne résiste pas à la contradiction.",
-      "Choisir des acteurs directs et selon des critères de sélection. Un benchmark identitaire n'aurait pas les même critères qu'un benchmark concurrentiel par exemple.",
+      "Choisir des acteurs directs et selon des critères de sélection. Un benchmark identitaire n'aurait pas les mêmes critères qu'un benchmark concurrentiel par exemple.",
     ],
     piege: null,
     outil: {
@@ -453,7 +453,7 @@ const temps = [
     pourquoiTitre: "Pourquoi c'est une étape et non une conclusion",
     pourquoi: "Le croisement produit ce qu'aucune source ne contient. C'est un travail à part entière, qui demande un certain temps d'analyse des sources précédentes.",
     faire: [
-      "Il s'agira de reprendre les données ressourcées et tirer des fils entre elles ce qui peut mener à créer différents éléments : une cartographie des processus, un parcours clients, qui mettent les frictions en regard côté client et côté entreprise. Mais aussi un relevé des frictions chacune rattachée à ce qu'elle affecte.",
+      "Il s'agira de reprendre les données recensées et tirer des fils entre elles ce qui peut mener à créer différents éléments : une cartographie des processus, un parcours clients, qui mettent les frictions en regard côté client et côté entreprise. Mais aussi un relevé des frictions, chacune rattachée à ce qu'elle affecte.",
       "C'est cette partie qui est décisive et qui mènera à orienter stratégiquement le projet.",
     ],
     piege: "Arriver au croisement avec trop peu de matière. Si toutes les sources disent la même chose parce qu'elles viennent du même endroit, le croisement ne révélera aucun mécanisme. Il faudra retourner sur le terrain avant de conclure.",
@@ -472,11 +472,11 @@ const replis = [
   },
   {
     nom: 'Des questions au comptoir',
-    desc: "Un mini-questionnaire posé sur une période donnée, en face à face ou par QR code au comptoir. Plus productif qu'un long formulaire envoyé mais doit être concis et ciblé sur un point précis.",
+    desc: "Un mini-questionnaire posé sur une période donnée, en face à face ou par QR code au comptoir. Plus productif qu'un long formulaire envoyé, mais il doit rester concis et ciblé sur un point précis.",
   },
   {
     nom: 'Les traces existantes',
-    desc: 'Avis en ligne, historique de caisse, volume de mails sur un sujet spécifique. Ce sont des données pauvres, mais qui réelles et déjà là.',
+    desc: 'Avis en ligne, historique de caisse, volume de mails sur un sujet spécifique. Ce sont des données pauvres, mais réelles et déjà là.',
   },
 ]
 
