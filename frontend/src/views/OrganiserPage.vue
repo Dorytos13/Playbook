@@ -589,7 +589,7 @@ const ateliers = [
   {
     nom: 'Atelier de cadrage',
     quand: 'À chaque début de cycle',
-    desc: "Discuter de la phase qui va suivre et y prendre les décisions nécessaires. L'entreprise valide le contenu du cycle et l'équipe s'engage à le réaliser.",
+    desc: "Discuter de la phase qui va suivre, y prendre les décisions nécessaires ou voir co-construire des éléments. L'entreprise valide le contenu du cycle et l'équipe s'engage à le réaliser.",
     sortie: "le contenu de la phase est clair pour tout le monde, et l'équipe sait ce qui sera produit durant le cycle.",
   },
   {
