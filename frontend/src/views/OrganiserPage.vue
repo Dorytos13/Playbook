@@ -69,7 +69,7 @@
               S'adapter à leurs manières de travailler
             </p>
             <p class="text-sm text-gray-500 leading-relaxed mb-3">
-              Une micro-entreprise n'a ni équipe projet, ni responsable produit, ni gestionnaire de projet. Parfois certaines vont préférer ne pas être impliquées dans le déroulement de la mise en place et d'autres vont le vouloir. Mais de manière générale, les projets agiles permettent une vrai flexibilité et c'est souvent celle-ci qui va primer. Son avantage est de pouvoir prendre en compte l'agenda des parties prenantes, et trouver un juste milieu pour ne pas les déborder non plus.
+              Une micro-entreprise n'a ni équipe projet, ni responsable produit, ni gestionnaire de projet. Parfois certaines vont préférer ne pas être impliquées dans le déroulement de la mise en place et d'autres vont le vouloir. Mais de manière générale, les projets agiles permettent une vraie flexibilité et c'est souvent celle-ci qui va primer. Son avantage est de pouvoir prendre en compte l'agenda des parties prenantes, et trouver un juste milieu pour ne pas les déborder non plus.
             </p>
           </div>
         </div>
@@ -412,7 +412,7 @@
                 <strong class="font-medium">La quatrième phase a donc été réorientée.</strong> Plutôt que de réaliser le site web comme prévu, elle a été consacrée à une phase exploratoire : évaluer une solution sur mesure et la confronter aux frictions relevées pendant les trois premières.
               </p>
               <p class="text-sm leading-relaxed text-gray-400">
-                C'est exactement ce que permet une organisation par phases. Le constat est arrivé assez tôt pour être exploité, un peut trop tard pour être complétement réorienté mais il restait du temps pour en tirer quelque chose. Organisé en cascade, il serait tombé à la livraison, sans budget ni marge pour réagir.
+                C'est exactement ce que permet une organisation par phases. Le constat est arrivé assez tôt pour être exploité, un peu trop tard pour être complètement réorienté mais il restait du temps pour en tirer quelque chose. Organisé en cascade, il serait tombé à la livraison, sans budget ni marge pour réagir.
               </p>
             </div>
 
@@ -476,7 +476,7 @@ const temps = [
     titre: 'Découper le projet',
     pourquoiTitre: 'Pourquoi découper avant de planifier',
     pourquoi: [
-      "Un projet agile a pour principe de ne pas être présenté d'un bloc. Il est divisé en plusieurs sprints dont chacun peut être livré indépendamment. L'idée est donc de structuré le projet en lots qui font sens et de pouvoir, à chaque fois, livrer quelque chose d'utile à l'entreprise.",
+      "Un projet agile a pour principe de ne pas être présenté d'un bloc. Il est divisé en plusieurs sprints dont chacun peut être livré indépendamment. L'idée est donc de structurer le projet en lots qui font sens et de pouvoir, à chaque fois, livrer quelque chose d'utile à l'entreprise.",
       "C'est pour cela qu'il est important de découper le projet en livrables, chaque livrable étant dans son propre sprint. Ainsi, chaque lot devient une décision séparée, ce qui rend l'ordre modifiable et permet à l'équipe de se l'approprier.",
     ],
     faire: [
@@ -490,26 +490,26 @@ const temps = [
     num: '②', verbe: 'Cadencer', objet: 'le projet',
     titre: 'Poser un rythme que l\'entreprise peut tenir',
     pourquoiTitre: "Pourquoi le rythme se négocie",
-    pourquoi: ["Le rythme, dans une micro-entreprise, c'est l'activité qui le donne, pas le projet. L'équipe n'a pas de temps réservé : chaque heure passée sur le projet est une heure prise ailleurs. C'est pour ça que la longueur des cycles compte autant. Pour cela il est nécessaire de s'adapter à la réalité de l'entreprise. "
+    pourquoi: ["Le rythme, dans une micro-entreprise, c'est l'activité qui le donne, pas le projet. L'équipe n'a pas de temps réservé : chaque heure passée sur le projet est une heure prise ailleurs. C'est pour ça que la longueur des cycles compte autant. Pour cela il est nécessaire de s'adapter à la réalité de l'entreprise."
     ],
     faire: [
-      "Fixer des phases de deux à trois semaines est un bon juste milieu mais le tout est que ça soit en accord avec l'entreprise. Le plus important sera de bloqué le plus tôt possible<strong class='font-medium text-gray-700'>un rendez-vous de fin de cycle dans l'agenda</strong>, à un moment compatible avec l'activité de l'entreprise. Il pourra toutes fois arriver qu'un empêchement survienne dans quel cas un approche agile permet de décaler le rendez-vous sans que le projet ne s'arrête.",
+      "Fixer des phases de deux à trois semaines est un bon juste milieu mais le tout est que ça soit en accord avec l'entreprise. Le plus important sera de bloquer le plus tôt possible <strong class='font-medium text-gray-700'>un rendez-vous de fin de cycle dans l'agenda</strong>, à un moment compatible avec l'activité de l'entreprise. Il pourra toutefois arriver qu'un empêchement survienne, auquel cas une approche agile permet de décaler le rendez-vous sans que le projet ne s'arrête.",
       "Convenir aussi du temps que l'équipe peut réellement donner sur une phase, en heures, et construire le cadre autour de cette contrainte plutôt que l'inverse.",
     ],
-    piege: "Ne pas faire preuve de flexibilité et ce piège vaut autant du côté du prestataire que de l'entreprise. Sans prendre en considération les contraintes de l'un et de l'autres, le projet ne pourra pas avancer et l'adhésion de l'équipe sera difficile à obtenir.",
+    piege: "Ne pas faire preuve de flexibilité et ce piège vaut autant du côté du prestataire que de l'entreprise. Sans prendre en considération les contraintes de l'un et de l'autre, le projet ne pourra pas avancer et l'adhésion de l'équipe sera difficile à obtenir.",
     outil: null,
   },
   {
     num: '③', verbe: 'Planifier', objet: 'le déroulement',
-    titre: 'Rendre le déroulement du projet concrêt',
-    pourquoiTitre: 'Pourquoi concrêtiser le planning',
+    titre: 'Rendre le déroulement du projet concret',
+    pourquoiTitre: 'Pourquoi concrétiser le planning',
     pourquoi: [
       "Le déroulement vous paraît évident, et c'est normal : c'est vous qui l'avez construit. Mais tant qu'il reste dans votre tête ou dans une liste de tâches, il n'existe pas pour le mandant. Or c'est pour lui qu'il doit être clair avant tout : c'est lui qui doit s'organiser et anticiper les moments où on aura besoin de son équipe.",
       "En le posant noir sur blanc, vous vérifiez de votre côté que rien n'a été oublié, et le mandant peut le valider en connaissance de cause. À partir de là, le déroulement est validé des deux côtés.",
     ],
     faire: [
       "Placer chaque lot dans le temps, avec sa durée, ce à quoi il correspond, son ordre et ses dépendances. Y faire figurer aussi les moments où l'entreprise est attendue : ateliers, validations, retours.",
-      "Plusieurs formes fonctionnent : un tableau, une kanban, un rétroplanning. La plus adéquat et lisible reste le <strong class='font-medium text-gray-700'>diagramme de Gantt</strong>, où chaque lot devient une barre sur une frise. La durée, l'ordre et les chevauchements se lisent visuellement, sans qu'il faille les décortiquer, ce qui compte beaucoup face à une équipe qui n'a pas l'habitude de la gestion de projet.",
+      "Plusieurs formes fonctionnent : un tableau, un kanban, un rétroplanning. La plus adéquate et la plus lisible reste le <strong class='font-medium text-gray-700'>diagramme de Gantt</strong>, où chaque lot devient une barre sur une frise. La durée, l'ordre et les chevauchements se lisent visuellement, sans qu'il faille les décortiquer, ce qui compte beaucoup face à une équipe qui n'a pas l'habitude de la gestion de projet.",
     ],
     piege: "Présenter un planning découpé en dizaines de tâches. L'entreprise n'a pas besoin de votre plan de travail, elle a besoin de savoir quand elle sera sollicitée et quand elle verra quelque chose. Un Gantt de huit barres se retient, un Gantt de quarante lignes se referme.",
     outil: {
@@ -545,10 +545,10 @@ const temps = [
     pourquoiTitre: 'Pourquoi noter',
     pourquoi: [
       "Un projet accompagné produit énormément de décisions orales. Quelques semaines plus tard, plus personne ne se souvient pourquoi telle option a été écartée, et la question revient sur la table comme si elle n'avait jamais été tranchée.",
-      "En prendre note a donc deux avantages : éviter de requestionner les mêmes éléments, et rendre la démarche défendable. C'est aussi ce qui permet de maintenir l'organisation du projet.",
+      "En prendre note a donc deux avantages : éviter de revenir sur les mêmes décisions, et rendre la démarche défendable. C'est aussi ce qui permet de maintenir l'organisation du projet.",
     ],
     faire: [
-      "Tenir ce qu'on appel un jounal de bord. Celui ci peut prendre la simple forme d'un paragraphe journalier que vous écriver pour faire un compte rendu de la journée ou être plus structuré : <strong class='font-medium text-gray-700'>ce qui a été décidé et pourquoi</strong>, ce qui a été écarté, et ce qui bloque encore.",
+      "Tenir ce qu'on appelle un journal de bord. Celui-ci peut prendre la simple forme d'un paragraphe journalier que vous écrivez pour faire un compte rendu de la journée ou être plus structuré : <strong class='font-medium text-gray-700'>ce qui a été décidé et pourquoi</strong>, ce qui a été écarté, et ce qui bloque encore.",
       "Relire ces notes pour concevoir et parler des points importants au rendez-vous de fin de cycle, c'est ce qui transforme le journal en outil de pilotage plutôt qu'en simple archive.",
     ],
     outil: {
@@ -574,7 +574,7 @@ const approches = [
   {
     nom: 'Agile',
     quand: 'Périmètre qui se précise en avançant',
-    desc: "Le projet est découpé en sprint. Chaque cycle produit quelque chose de visible, montré à l'entreprise puis corrigé si nécessaire avant d'enchaîner sur le suivant.",
+    desc: "Le projet est découpé en sprints. Chaque cycle produit quelque chose de visible, montré à l'entreprise puis corrigé si nécessaire avant d'enchaîner sur le suivant.",
     cout: "une disponibilité régulière de l'entreprise et l'acceptation de montrer du travail inachevé. En contrepartie, une erreur ne coûte jamais plus qu'un cycle.",
   },
 ]
@@ -589,19 +589,19 @@ const ateliers = [
   {
     nom: 'Atelier de cadrage',
     quand: 'À chaque début de cycle',
-    desc: "Discuter de la phase qui va suivre, y prendre les décisions nécessaires ou voir co-construire des éléments. L'entreprise valide le contenu du cycle et l'équipe s'engage à le réaliser.",
-    sortie: "le contenu de la phase est clair pour tout le monde, et l'équipe sait ce qui sera produit durant le cycle.",
+    desc: "Discuter de la phase qui va suivre, y prendre les décisions nécessaires ou voire co-construire des éléments. L'entreprise valide le contenu du cycle et l'équipe s'engage à le réaliser.",
+    sortie: "un contenu de phase clair pour tout le monde, et une équipe qui sait ce qui sera produit durant le cycle.",
   },
   {
     nom: 'Atelier de prise en main',
     quand: 'À chaque livraison de lot',
-    desc: "L'équipe s'approprie l'outil selon la manière définie et continue à manipuler l'outil sur ses propres cas. Vous observez sans intervenir tant que la personne n'est pas bloquée.",
+    desc: "L'équipe s'approprie l'outil selon la manière définie et continue à le manipuler sur ses propres cas. Vous observez sans intervenir tant que la personne n'est pas bloquée.",
     sortie: "des correctifs identifiés en direct et des utilisateurs qui font, pas qui ont vu faire.",
   },
   {
     nom: 'Rétrospective',
     quand: 'En fin de cycle',
-    desc: "Discussion autour de ce qui fonctionne, ce qui a coince, ce qu'on change pour la suite. Il peut autant s'agir d'une partie de l'atelier de prise en main que d'un rendez-vous séparé. Il aura d'avantage d'importance pour des phases ou une période de prise en main de plusieurs jours a été planifié.",
+    desc: "Discussion autour de ce qui fonctionne, ce qui a coincé, ce qu'on change pour la suite. Il peut autant s'agir d'une partie de l'atelier de prise en main que d'un rendez-vous séparé. Il aura davantage d'importance pour des phases où une période de prise en main de plusieurs jours a été planifiée.",
     sortie: "un ajustement concret du cadre, appliqué dès le cycle suivant.",
   },
 ]
@@ -626,7 +626,7 @@ const chiffres = [
 const phases = [
   { num: '01', nom: "Fondation de l'infrastructure", desc: "Poser la base sur laquelle tout le reste allait s'appuyer." },
   { num: '02', nom: 'Traçabilité et stock', desc: 'Suivi des commandes, logique d\'inventaire et fiches produits.' },
-  { num: '03', nom: "Intégration d'outils", desc: "Connecter les outils satellites au socle (Outils de transfert de fichiers, gestion des envois, etc). C'est ici que les limites de la plateforme sont devenues visibles." },
+  { num: '03', nom: "Intégration d'outils", desc: "Connecter les outils satellites au socle (outils de transfert de fichiers, gestion des envois, etc.). C'est ici que les limites de la plateforme sont devenues visibles." },
   { num: '04', nom: 'Réalisation du site web', desc: "Prévue avec l'ajout des services et une restructuration de l'architecture. Remplacée en cours de route par une phase exploratoire sur une solution sur mesure." },
 ]
 </script>
