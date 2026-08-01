@@ -29,7 +29,7 @@
                 Un besoin n'appelle pas forcément son outil
               </h2>
               <p class="text-sm text-gray-500 leading-relaxed">
-                Le but ici n'est pas de prendre chaque besoin séparément pour lui trouver un outil, mais de voir ce qui peut être couvert ensemble. Chercher une réponse par ligne conduit à avoir autant d'outils que de besoins et demande à l'équipe d'apprendre autant d'interfaces qu'elle n'a de besoin, et ce n'est pas ce que l'on souhaite.
+                Le but ici n'est pas de prendre chaque besoin séparément pour lui trouver un outil, mais de voir ce qui peut être couvert ensemble. Chercher une réponse par ligne conduit à avoir autant d'outils que de besoins et demande à l'équipe d'apprendre autant d'interfaces qu'elle n'a de besoins, et ce n'est pas ce que l'on souhaite.
               </p>
             </div>
             <div></div>
@@ -242,7 +242,7 @@
             Aucune de ces formes n'est sans maintenance
           </p>
           <p class="text-sm text-gray-500 leading-relaxed mb-3">
-            Une plateforme demande de suivre les évolutions de son éditeur et d'enrichir le contenu au fil du temps ; un écosystème casse là où les outils se parlent ; le sur-mesure réclame des mises à jour et des correctifs de sécurité. Ce qui varie d'une forme à l'autre, et d'un besoin à l'autre, c'est la nature de cette maintenance et le volume qu'il représente, jamais son existence.
+            Une plateforme demande de suivre les évolutions de son éditeur et d'enrichir le contenu au fil du temps ; un écosystème casse là où les outils se parlent ; le sur-mesure réclame des mises à jour et des correctifs de sécurité. Ce qui varie d'une forme à l'autre, et d'un besoin à l'autre, c'est la nature de cette maintenance et le volume de travail qu'elle représente, jamais son existence.
           </p>
           <p class="text-sm text-gray-500 leading-relaxed">
             La question à poser au mandant n'est donc pas « y aura-t-il de la maintenance ? », mais <strong class="font-medium text-gray-700">« qui la fera, et combien de temps prendra-t-elle chaque année ? »</strong>. Une solution facile à utiliser n'est pas une solution qui se maintient toute seule.
@@ -282,7 +282,7 @@
               <div class="px-8 py-8 bg-white/8">
                 <p class="font-display text-lg font-medium mb-3 text-white">Ce qui n'a pas changé</p>
                 <p class="text-sm leading-relaxed text-white/75">
-                  Le coût d'exploitation. Une solution sur mesure se maintient aussi longtemps qu'elle sert : mises à jour, correctifs de sécurité, adaptation aux services externes. Pour ça, l'entreprise n'a souvent pas les compétences nécessaires ce qui nécessite une resource externe.
+                  Le coût d'exploitation. Une solution sur mesure se maintient aussi longtemps qu'elle sert : mises à jour, correctifs de sécurité, adaptation aux services externes. Pour ça, l'entreprise n'a souvent pas les compétences nécessaires ce qui nécessite une ressource externe.
                 </p>
               </div>
             </div>
@@ -291,7 +291,7 @@
               <div class="col-span-2">
                 <p class="text-xs font-medium uppercase tracking-widest mb-3 text-white/50">Le critère qui tranche</p>
                 <p class="text-sm leading-relaxed mb-8 text-white/75">
-                  La question maintnant c'est <strong class="font-medium text-white">« qui maintiendra, dans la durée ? »</strong>. Une entreprise avec un prestataire attitré ou une personne compétente en interne peut assumer du sur-mesure. En revanche, une entreprise sans personne pour reprendre la main ne le peut pas, quelle que soit la facilité avec laquelle elle aura été construite.
+                  La question maintenant c'est <strong class="font-medium text-white">« qui maintiendra, dans la durée ? »</strong>. Une entreprise avec un prestataire attitré ou une personne compétente en interne peut assumer du sur-mesure. En revanche, une entreprise sans personne pour reprendre la main ne le peut pas, quelle que soit la facilité avec laquelle elle aura été construite.
                 </p>
               </div>
               <div></div>
@@ -356,7 +356,7 @@
               L'entreprise demande quelque chose de simple, et elle a raison : elle devra vivre avec. Mais cette exigence porte sur l'usage quotidien, pas sur la mise en œuvre et ce sont deux choses différentes, parfois même opposées.
             </p>
             <p class="text-sm text-gray-500 leading-relaxed mb-4">
-              Une plateforme réputée pour êtrefacile peut exiger, dès qu'un processus sort du standard, du code, des applications tierces et des contournements. À l'arrivée, l'équipe hérite d'un système qu'elle ne comprend pas mieux, et le temps passé dépasse ce qu'aurait coûté une solution construite pour elle.
+              Une plateforme réputée pour être facile peut exiger, dès qu'un processus sort du standard, du code, des applications tierces et des contournements. À l'arrivée, l'équipe hérite d'un système qu'elle ne comprend pas mieux, et le temps passé dépasse ce qu'aurait coûté une solution construite pour elle.
             </p>
             <div class="rounded-xl bg-blue-50 border border-blue-100 p-5">
               <p class="text-sm text-gray-500 leading-relaxed">
@@ -380,7 +380,7 @@
             <div class="grid grid-cols-3 gap-12 items-start mb-8">
               <div class="col-span-2">
                 <p class="text-sm leading-relaxed mb-3 text-gray-500">
-                  Les huit besoins retenus ont été regroupés autour d'une plateforme de gestion unique, complétée par deux outils satellites : un pour le transfert de fichiers, un pour l'expédition, etc. La forme relevait donc de l'écosystème plutôt que de la plateforme seule.
+                  Les huit besoins retenus ont été regroupés autour d'une plateforme de gestion unique, complétée par deux outils : un pour le transfert de fichiers, un pour l'expédition. La forme relevait donc de l'écosystème plutôt que de la plateforme seule.
                 </p>
                 <p class="text-sm leading-relaxed text-gray-500">
                   Quatre plateformes ont été comparées sur une grille de critères couvrant la courbe d'apprentissage, la maintenance, la gestion des contacts, les coûts, les intégrations possibles et la gestion des réservations. Wix a été retenu pour son interface accessible, en français, son module de contacts natif et ses systèmes intégrés en lien avec les commandes et réservations.
@@ -404,7 +404,7 @@
                 La tarification dégressive du service de tirage
               </p>
               <p class="text-sm leading-relaxed mb-3 text-gray-400">
-                Des prix par paliers qui ne suivent pas la même logique d'un format à l'autre. Ce mécanisme ne correspondait à aucune fonction native. Des extensions existantes ne répondaient pas au besoin. Il a fallu l'équivalent d'une semaine de développement pour le reproduire, et certaines limites du panier se sont révélées impossibles à lever, dû au blocage de la plateforme.
+                Des prix par paliers qui ne suivent pas la même logique d'un format à l'autre. Ce mécanisme ne correspondait à aucune fonction native. Des extensions existantes ne répondaient pas au besoin. Il a fallu l'équivalent d'une semaine de développement pour le reproduire, et certaines limites du panier se sont révélées impossibles à lever, en raison du blocage de la plateforme.
               </p>
             </div>
 
@@ -431,7 +431,7 @@
                 En comparaison avec la plateforme, le sur-mesure reste plus cher sur la durée, environ deux fois et demie la plateforme sur cinq ans, l'écart tenant surtout à la maintenance. En revanche l'avantage du sur-mesure est de lever des frictions qui ne peuvent pas être levées sur la plateforme. Ceci permet donc à l'équipe de se concentrer sur le travail à valeur ajoutée mais surtout d'optimiser du temps permettant d'obtenir un retour sur investissement plus rapide et ainsi minimiser les coûts supplémentaires du sur-mesure sur la durée. 
               </p>
               <p class="text-sm leading-relaxed mb-3 text-white/85">
-                Celà n'est donc pas forcément la bonne réponse par défaut. Mais ce n'était pas non plus une option déraisonnable : elle n'avait simplement jamais été évaluée, écartée d'emblée parce que l'entreprise était petite et son équipe non technique.
+                Cela n'est donc pas forcément la bonne réponse par défaut. Mais ce n'était pas non plus une option déraisonnable : elle n'avait simplement jamais été évaluée, écartée d'emblée parce que l'entreprise était petite et son équipe non technique.
               </p>
               <p class="text-sm leading-relaxed text-white/85">
                 En prenant en compte d'entrée cette possibilité et en testant les autres solutions évaluées, le choix final n'aurait très certainement pas été le même.
@@ -466,10 +466,10 @@ const temps = [
     titre: 'Cadrer la forme de la réponse',
     pourquoiTitre: 'Pourquoi avant de regarder des produits',
     pourquoi: [
-      "Il est important de poser les bonnes questions avant de se lancer dans la recherche de solutions. C'est pour cela que les deux questions posées plus haut se tranchent maintenant, avant même d'avoir fait une selection de solution. Si on part à la recherche d'outils sans savoir ce qu'on cherche, on risque de se laisser séduire par des démonstrations commerciales et de retenir une solution qui ne convient pas.",
+      "Il est important de poser les bonnes questions avant de se lancer dans la recherche de solutions. C'est pour cela que les deux questions posées plus haut se tranchent maintenant, avant même d'avoir fait une sélection de solutions. Si on part à la recherche d'outils sans savoir ce qu'on cherche, on risque de se laisser séduire par des démonstrations commerciales et de retenir une solution qui ne convient pas.",
     ],
     faire: [
-      "Même si cela n'est pas représenter noir sur blanc, il faut créer des groupes de besoins que ce soit des besoins qui touchent le même sujet, ou qui surviennent au même moment, ce sont des besoins quiforment un bloc. Ce qui reste isolé appellera soit un outil dédié, soit une liaison à construire.",
+      "Même si cela n'est pas représenté noir sur blanc, il faut créer des groupes de besoins, qu'ils touchent le même sujet ou qu'ils surviennent au même moment. Ce sont ceux-là qui forment un bloc. Ce qui reste isolé appellera soit un outil dédié, soit une liaison à construire.",
     ],
     piege: "Éliminer le sur-mesure par réflexe. Une petite structure et une équipe non technique n'excluent pas cette forme, elles rendent seulement la question de la maintenance décisive. L'écarter sans l'évaluer, c'est se priver d'un point de comparaison qui ne coûte rien à établir, surtout avec les outils actuels.",
     outil: null,
@@ -498,13 +498,13 @@ const temps = [
     pourquoiTitre: 'Pourquoi une grille ne suffit pas',
     pourquoi: [
       "Là où la grille regroupe la partie pertinente de ce que la documentation annonce, le test permet de la confronter au cas réel de l'entreprise. Sans test, l'écart entre les deux ne se manifeste pas au moment du choix, mais des semaines plus tard, quand le travail est engagé et qu'il devient coûteux de revenir en arrière.", 
-      "Le test est d'autant plus important quand une solution n'a jamais été exploitée par vos soins. Avec l'expérience, vous connaissez des outils et leurs limites. Sans expérience, vous ignorez ce que vous ne savez pas, et c'est pour cela que tester vous sera bénéfique, même si la solution venait à pas être celle retenue."
+      "Le test est d'autant plus important quand une solution n'a jamais été exploitée par vos soins. Avec l'expérience, vous connaissez des outils et leurs limites. Sans expérience, vous ignorez ce que vous ne savez pas, et c'est pour cela que tester vous sera bénéfique, même si la solution venait à ne pas être celle retenue."
     ],
     faire: [
       "<strong class='font-medium text-gray-700'>Confronter la solution au processus le plus atypique de l'entreprise.</strong> Le processus courant passe partout et c'est pour lui que les outils sont conçus. Par contre, prendre le temps de tester une option sur un cas particulier révèle si la solution tient. Contrairement à ce que l'on pourrait croire, chaque domaine a ses particularités et il est important de les tester avant de s'engager.",
       "Vérifier aussi les conditions d'usage, distinctement des fonctionnalités : le plan gratuit a-t-il des limitations ? existe-t-il un prérequis administratif ? une limite de volume ? Consigner enfin ce qui n'a pas pu être testé, pour connaître la zone d'incertitude avant d'aller plus loin.",
     ],
-    piege: "Ne pas prendre le temps de tester la solution rentenue. Le test est la seule façon de savoir si la solution tient, et il est important de le faire pour garantir que le chois est le bon.",
+    piege: "Ne pas prendre le temps de tester la solution retenue. Le test est la seule façon de savoir si la solution tient, et il est important de le faire pour garantir que le choix est le bon.",
     outil: null,
   },
 ]
