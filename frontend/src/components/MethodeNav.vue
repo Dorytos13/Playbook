@@ -17,13 +17,15 @@
           :aria-label="replie ? 'Déployer le menu' : 'Replier le menu'"
           class="shrink-0 w-6 h-6 flex items-center justify-center rounded-md text-gray-400 hover:text-gray-900 hover:bg-white/60 transition-colors"
         >
+          <!-- Icône « panneau latéral » : indique qu'on ouvre ou ferme le menu,
+               et non qu'on revient en arrière. -->
           <svg
             viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="w-3.5 h-3.5 transition-transform duration-300"
-            :class="replie ? 'rotate-180' : ''"
+            stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+            class="w-4 h-4"
           >
-            <polyline points="15 18 9 12 15 6" />
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M9 3v18" />
           </svg>
         </button>
         <p
