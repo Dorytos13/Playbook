@@ -105,7 +105,7 @@ const etapes = [
   { slug: 'orienter',    numero: '03', titre: 'Orienter le projet', route: '/orienter' },
   { slug: 'evaluer',     numero: '04', titre: 'Évaluer les solutions', route: '/evaluer' },
   { slug: 'organiser',   numero: '05', titre: 'Organiser le projet', route: '/organiser' },
-  { slug: 'mise-oeuvre', numero: '06', titre: 'Mettre en œuvre',},
+  { slug: 'mise-en-oeuvre', numero: '06', titre: 'Mettre en œuvre', route: '/mise-en-oeuvre' },
   { slug: 'mesurer',     numero: '07', titre: 'Mesurer et faire évoluer'},
 ]
 </script>
