@@ -44,7 +44,7 @@
                     Priorisation
                 </p>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Une quinzaine de constats ne se traitent pas de front. Il faut décider par quoi commencer, ce qui attendra, et ce qu'on assume de ne pas traiter du tout. C'est un choix arbitraire qui doit pouvoir être justifier auprès de l'entreprise.
+                    Une quinzaine de constats ne se traitent pas de front. Il faut décider par quoi commencer, ce qui attendra, et ce qu'on assume de ne pas traiter du tout. C'est un choix arbitraire qui doit pouvoir être justifié auprès de l'entreprise.
                 </p>
                 </div>
 
@@ -219,7 +219,7 @@
                   La matrice d'Eisenhower croise l'urgence et l'importance. Elle ne dit rien d'un troisième filtre, pourtant décisif quand on intervient seul : <strong class="font-medium text-white">est-ce mon métier ?</strong>
                 </p>
                 <p class="text-sm leading-relaxed mb-8 text-white/75">
-                  Un besoin peut être urgent, important, et ne pas relever de vous. En micro-entreprise, un intervenant croise systématiquement des besoins qui appellent un graphiste, un comptable ou une agence. Bien que le profil d'ingénieur des médias permet une grande flexibilité, il est important de savoir dire « ce n'est pas mon métier » et de proposer une suite à l'entreprise plutôt que de promettre ce qu'on ne pourra pas tenir.
+                  Un besoin peut être urgent, important, et ne pas relever de vous. En micro-entreprise, un intervenant croise systématiquement des besoins qui appellent un graphiste, un comptable ou une agence. Bien que le profil d'ingénieur des médias permette une grande flexibilité, il est important de savoir dire « ce n'est pas mon métier » et de proposer une suite à l'entreprise plutôt que de promettre ce qu'on ne pourra pas tenir.
                 </p>
                 <p class="text-xs font-medium text-gray-200 uppercase tracking-widest mb-4">
                     Les quatres cadrants de la matrice
@@ -360,7 +360,7 @@
                 <strong class="font-medium">Le périmètre retenu ne contient aucune des trois.</strong>
               </p>
               <p class="text-sm leading-relaxed mb-3 text-gray-400">
-                Répondre à la demande telle quelle aurait aggravé la situation au lieu de l'améliorer. Proposer de la réservation en ligne sans système de suivi, faire de la publicité sans capacité à absorber l'afflux, vendre en ligne sans gestion de stock : chacune de ces réponses amplifiait une friction existante. Et le risque portait précisément sur ce qui faisait la force de l'enseigne prouvé par une réputation de 4,8 sur 5 construite sur la qualité du service.
+                Répondre à la demande telle quelle aurait aggravé la situation au lieu de l'améliorer. Proposer de la réservation en ligne sans système de suivi, faire de la publicité sans capacité à absorber l'afflux, vendre en ligne sans gestion de stock : chacune de ces réponses amplifiait une friction existante. Et le risque portait précisément sur ce qui faisait la force de l'enseigne, attestée par une réputation de 4,8 sur 5 construite sur la qualité du service.
               </p>
               <p class="text-sm leading-relaxed mb-4 text-gray-400">
                 À la place, une priorité avant cela :
@@ -402,12 +402,12 @@ const temps = [
     num: '①', verbe: 'Traduire', objet: 'les constats',
     titre: 'Traduire les constats en besoins',
     pourquoiTitre: 'Pourquoi en premier',
-    pourquoi: "La dernière étape jusqu'ici a été le croisement des données. cela permet de mettre en évidence les symptômes tels que les attentes, les frictions, etc. Maintenant transformer ces symptômes en besoins permettra de prioriser des objectifs plutôt que des symptômes.",
+    pourquoi: "La dernière étape jusqu'ici a été le croisement des données. Cela permet de mettre en évidence les symptômes tels que les attentes, les frictions, etc. Maintenant transformer ces symptômes en besoins permettra de prioriser des objectifs plutôt que des symptômes.",
     faire: [
       "Reprendre chaque friction relevée dans le croisement des données et formuler ce qu'il faudrait pour qu'elle disparaisse, <strong class='font-medium text-gray-700'>sans nommer d'outil</strong>. « Dix appels par jour pour des informations de base » devient « rendre les informations courantes accessibles sans passer par l'équipe ».",
       "Regrouper ensuite ce qui se recoupe : plusieurs frictions renvoient souvent au même besoin, et c'est ce regroupement qui donne à chacun son poids.",
     ],
-    piege: "Penser que les besoins ne sont que les points cités initialement par le mandant. Les besoins sont ce qui se cache derrière les symptômes, et ils ne sont parfois pas tous identifiés par l'entreprise. d'où l'importance de les formuler à partir des frictions et non des demandes.",
+    piege: "Penser que les besoins ne sont que les points cités initialement par le mandant. Les besoins sont ce qui se cache derrière les symptômes, et ils ne sont parfois pas tous identifiés par l'entreprise. D'où l'importance de les formuler à partir des frictions et non des demandes.",
     outil: null,
   },
   {
@@ -416,8 +416,8 @@ const temps = [
     pourquoiTitre: 'Pourquoi une matrice',
     pourquoi: "Pour prioriser, ce qui fonctionnera le mieux en général est d'utiliser une matrice. Cette dernière ne décide pas à votre place, elle permettra au mandant de <strong class='font-medium text-gray-700'>visualiser et discuter</strong> autour de ces besoins. Cela aura plus de valeur que de lui dire simplement « on fait ça d'abord ».",
     faire: [
-      "La matrice utilisée est celle de l'Eisenhower. Elle permet de placer chaque besoin sur deux axes : <strong class='font-medium text-gray-700'>l'urgence</strong> : est-ce que ça bloque maintenant ? et <strong class='font-medium text-gray-700'>l'importance</strong> : est-ce que ça pèse sur la suite ?",
-      "A partir de cette matrice, on peut poser les besoins d'après la liste précédement réalisée aux endroits appropriés.",
+      "La matrice utilisée est celle d'Eisenhower. Elle permet de placer chaque besoin sur deux axes : <strong class='font-medium text-gray-700'>l'urgence</strong> : est-ce que ça bloque maintenant ? et <strong class='font-medium text-gray-700'>l'importance</strong> : est-ce que ça pèse sur la suite ?",
+      "À partir de cette matrice, on peut poser les besoins d'après la liste précédemment réalisée aux endroits appropriés.",
     ],
     piege: 'Confondre ce qui est urgent avec ce qui est "bruyant". Le besoin que le mandant répète le plus souvent n\'est pas forcément celui qui bloque. C\'est souvent le plus visible, mais pas le plus impactant.',
     outil: {
@@ -434,20 +434,20 @@ const temps = [
     pourquoi: "Prioriser dit <em>ce qu'on fait</em>. Il faut aussi dire <em>à quoi toute solution devra satisfaire</em>. Ces contraintes sont celles à prendre en compte par rapport au contexte. Elles peuvent être budgétaires, organisationnelles, techniques, etc.",
     faire: [
       "Ces contraintes vont très souvent être liées au mandat qui a été posé. Elles sont souvent formulées par le mandant mais certaines d'entre elles peuvent venir d'autres sources. Prendre le temps de les lister et d'en discuter avec le mandant permettra de les valider pour la suite.",
-      "Les avoir sous la forme d'un référentiel permettra de les prendre en compte lors du choix de la solution et ne pas en oublier.",
+      "Les avoir sous la forme d'un référentiel permettra de les prendre en compte lors du choix de la solution et de ne pas en oublier.",
     ],
-    piege: "Ne pas les relever ou ne pas en tenir compte aura pour conséquence d'offrir une solution à l'entreprise sans tenir compte de leurs besoins à eux. Les contraintes proviennent de besoins qui ne sont pas des frictions identifiées.",
+    piege: "Ne pas les relever ou ne pas en tenir compte aura pour conséquence d'offrir une solution à l'entreprise sans tenir compte de ses besoins. Les contraintes proviennent de besoins qui ne sont pas des frictions identifiées.",
     outil: null,
   },
   {
     num: '④', verbe: 'Confronter', objet: 'la demande',
     titre: 'Mesurer l\'écart avec la demande initiale',
     pourquoiTitre: 'Pourquoi est-ce important',
-    pourquoi: "Lors du premier contact, le mandant a souvent déjà identifier des problèmes et des solutions. Quiconque pourrait partir de son diagnostic et répondre à sa demande. Mais le rôle d'un intervenant, d'autant plus dans de petites entreprises où il n'y a pas de service dédié, est de <strong class='font-medium text-gray-700'>mettre en évidence les besoins réels</strong> et de les prioriser. Cela peut impliquer de ne pas répondre à la demande initiale ce qui nécessite d'expliquer en quoi notre diagnostique serait plus approrié.",
+    pourquoi: "Lors du premier contact, le mandant a souvent déjà identifié des problèmes et des solutions. Quiconque pourrait partir de son diagnostic et répondre à sa demande. Mais le rôle d'un intervenant, d'autant plus dans de petites entreprises où il n'y a pas de service dédié, est de <strong class='font-medium text-gray-700'>mettre en évidence les besoins réels</strong> et de les prioriser. Cela peut impliquer de ne pas répondre à la demande initiale ce qui nécessite d'expliquer en quoi notre diagnostic serait plus approprié.",
     faire: [
         "Le parallèle entre les deux est relativement simple : on compare les besoins identifiés avec ceux exprimés par le mandant.",
-        "<strong class='font-medium text-gray-700'>Pas d'écart :</strong> le diagnostic confirme l'intuition du mandant. Le dire explicitement, cela donne du crédit à tout ce qui suivra.",
-        "<strong class='font-medium text-gray-700'>Un écart :</strong> argumenter par le scénario d'échec de la demande, pas par ce qui serait mieux. Expliquer que la demande initiale reste au programme, elle change juste de rang. Puis Démontrer en quoi travailler de cette manière leur sera bénéfique.",
+        "<strong class='font-medium text-gray-700'>Pas d'écart :</strong> le diagnostic confirme l'intuition du mandant. Le dire explicitement donne du crédit à tout ce qui suivra.",
+        "<strong class='font-medium text-gray-700'>Un écart :</strong> argumenter par le scénario d'échec de la demande, pas par ce qui serait mieux. Expliquer que la demande initiale reste au programme, elle change juste de rang. puis démontrer en quoi travailler de cette manière lui sera bénéfique.",
     ],
     piege: "Dérouler son argumentaire sans écouter. Le mandant connaît son métier mieux que vous, et son objection est souvent une information que le diagnostic a manquée. Et s'il se tait, ce n'est pas nécessairement qu'il est convaincu : c'est souvent qu'on lui parle dans un vocabulaire qu'il ne maîtrise pas.",
     outil: null,
@@ -485,8 +485,8 @@ const criteres = [
   "Chaque besoin retenu est formulé comme un <strong class='font-medium text-gray-700'>besoin</strong>, pas comme une solution",
   "Ce qui sort du périmètre a une raison écrite et une suite proposée",
   "Les contraintes transversales sont posées",
-  "L'écart avec la demande initiale a été évalué,qu'il existe ou non",
-  'Le périmètre a été discuté etvalidé par le mandant',
+  "L'écart avec la demande initiale a été évalué, qu'il existe ou non",
+  'Le périmètre a été discuté et validé par le mandant',
 ]
 
 const coches = ref(criteres.map(() => false))
@@ -495,7 +495,7 @@ const contraintes = [
   "Simplicité d'utilisation · des outils maîtrisables par l'équipe",
   "Outils intégrés · des outils qui communiquent entre eux pour éviter la dispersion de l'information",
   "Progressivité · des solutions qui s'installent dans le temps et ne nécessitent pas de tout changer d'un coup",
-  "Maitrise des coûts · des solutions qui restent dans le budget de l'entreprise",
+  "Maîtrise des coûts · des solutions qui restent dans le budget de l'entreprise",
   "Autonomie à terme · avoir une solution comprise et utilisable par l'équipe",
 ]
 
@@ -510,7 +510,7 @@ const resultats = [
   },
   {
     nom: 'Cinq besoins délégués',
-    desc: "L'image de marque, la stratégie digitale, le référencement, la publicité payante, la fidélisation. Sortis du périmètre non parce qu'ils étaient secondaires, mais parce qu'ils relevaient d'une autre expertise qui a fait l'objet d'une recommandation budgétaire et préstataire fournie à l'entreprise.",
+    desc: "L'image de marque, la stratégie digitale, le référencement, la publicité payante, la fidélisation. Sortis du périmètre non parce qu'ils étaient secondaires, mais parce qu'ils relevaient d'une autre expertise, qui a fait l'objet d'une recommandation chiffrée et d'une orientation vers un prestataire.",
   },
   {
     nom: 'Un besoin écarté',
