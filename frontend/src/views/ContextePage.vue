@@ -93,7 +93,7 @@
                 Empathie et écoute active avant tout
               </h2>
               <p class="text-sm text-gray-500 leading-relaxed mb-3">
-                Ces entreprises ont une culture forte, des processus ancrés depuis des décennies. Elles ont besoin de quelqu’un qui observe le terrain, quelqu’un d’humble et qui comprenne les enjeux et freins parfois divulgués.
+                Ces entreprises ont une culture forte, des processus ancrés depuis des décennies. Elles ont besoin de quelqu'un qui observe le terrain, quelqu'un d'humble et qui comprenne les enjeux et freins parfois non divulgués.
               </p>
               <p class="text-sm text-gray-500 leading-relaxed mb-3">
                 L'ingénieur ne doit pas se contenter de satisfaire les besoins exprimés. Il doit comprendre les enjeux, analyser le contexte et définir une stratégie qui fait sens avec l'évolution de l'entreprise et surtout l'expliquer à l'entreprise en adaptant son vocabulaire.
@@ -125,12 +125,12 @@
                 Un playbook en constante évolution
               </h2>
               <p class="text-sm text-gray-500 leading-relaxed mb-5">
-                Ce playbook, dans sa version actuelle, se concentre délibérément sur les fondations opérationnelles. Bien que cela face l'objet de la majorité des demandes d'entreprises, la visibilité externe n'est pas la première priorité. Proposer une stratégie de communication à une entreprise dont les processus internes sont défaillants amplifie les frictions plutôt que de les résoudre.
+                Ce playbook, dans sa version actuelle, se concentre délibérément sur les fondations opérationnelles. Bien que cela fasse l'objet de la majorité des demandes d'entreprises, la visibilité externe n'est pas la première priorité. Proposer une stratégie de communication à une entreprise dont les processus internes sont défaillants amplifie les frictions plutôt que de les résoudre.
               </p>
               <div class="rounded-xl bg-gray-50 p-5">
                 <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-2">Évolutivité</p>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                  Basé sur une première expérience dans le cadre d'un travail de Bachelor, ce playbook est conçu pour être enrichi après chaque mission. Les fiches friction, les outils recommandés et les exemples terrain pourront être complétés au fil des cas rencontrés.
+                  Basé sur une première expérience dans le cadre d'un travail de Bachelor, ce playbook est conçu pour être enrichi après chaque mission. Les fiches frictions, les outils recommandés et les exemples terrain pourront être complétés au fil des cas rencontrés.
                 </p>
               </div>
             </div>
@@ -190,10 +190,10 @@
               Photogare, Morges
             </h2>
             <p class="text-sm leading-relaxed max-w-lg mb-3 text-gray-500">
-              Cette méthodologie sera illustrée par un cas pratique réalisé dans le cadre d'un travail de Bachelor en Ingénierie des Médias à la HEIG-VD en 2026.
+              Cette méthodologie sera illustrée par un cas pratique réalisé dans le cadre d'un travail de Bachelor en Ingénierie des médias à la HEIG-VD en 2026.
             </p>
             <p class="text-sm leading-relaxed max-w-lg mb-10 text-gray-500">
-              Photogare est une entreprise du domaine de la photographie implantée à Morges depuis ses débuts en 1959. Actuellement composée de 4 membres, l’objectif initial défini avant le travail consistait à les accompagner dans une transformation digitale leur permettant d’élargir leurs horizons.          
+              Photogare est une entreprise du domaine de la photographie implantée à Morges depuis ses débuts en 1959. Actuellement composée de 4 membres, l'objectif initial défini avant le travail consistait à les accompagner dans une transformation digitale leur permettant d'élargir leurs horizons.          
             </p>
           
             <div class="grid grid-cols-4 gap-px rounded-xl overflow-hidden bg-gray-800">
@@ -209,9 +209,9 @@
         <!-- CTA -->
         <div class="bg-white rounded-2xl px-12 py-16 text-center">
           <h2 class="font-display text-3xl font-medium text-gray-900 mb-3">
-            Tu souhaites en savoir plus sur le lancement d'un projet ?
+            Vous souhaitez en savoir plus sur le lancement d'un projet ?
           </h2>
-          <p class="text-sm text-gray-500 mb-7">Découvre la section diagnostic pour établir ton plan d'action.</p>
+          <p class="text-sm text-gray-500 mb-7">Découvrez la section diagnostic pour établir votre plan d'action.</p>
           <button
             @click="$router.push('/diagnostic')"
             class="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-gray-700 transition-colors"
@@ -259,11 +259,11 @@ const briefPoints = [
 const conseilsMandat = [
   {
     titre: "Expliquer, vulgariser, illustrer",
-    desc: "Mettre en avant les bénéfices concrets pour la société en évitant le jargon technique.",
+    desc: "Mettre en avant les bénéfices concrets pour l'entreprise en évitant le jargon technique.",
   },
   {
     titre: "Aborder les changements avec pédagogie",
-    desc: "Rassurer la personne sur la manière dont la solution va être effectuée et implémentée.",
+    desc: "Rassurer la personne sur la manière dont la solution va être construite et mise en place.",
   },
   {
     titre: "Être transparent sur l'investissement requis",
