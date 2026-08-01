@@ -358,6 +358,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import MethodeNav from '../components/MethodeNav.vue'
+import { outil } from '../data/outils.js'
 
 /* ── Le carrousel ─────────────────────────────────────────────── */
 
@@ -393,12 +394,7 @@ const temps = [
       "Puis, ce qui aura davantage de valeur est la <strong class='font-medium text-gray-700'>synthèse croisée</strong> des regards. Les contradictions, ou au contraire les convergences, sont souvent l'information la plus précieuse.",
     ],
     piege: "Ne parler qu'aux enthousiastes. Bien sûr s'il y en a et si l'entreprise le permet, il faut délibérément interroger les réticents et ceux qui sont mal à l'aise avec le numérique : ce sont eux qui portent le risque d'échec de l'adoption.",
-    outil: {
-      nom: "Guide d'entretien",
-      desc: "Bases d'un guide d'entretien semi-directif, à compléter selon le contexte",
-      notion: 'https://outilsplaybook.notion.site/guide-d-entretien',
-      fichier: '/gabarits/guide-entretien.pdf',
-    },
+    outil: outil['guide-entretien'],
   },
   {
     num: '③', verbe: 'Auditer', objet: "l'existant", cle: 'Audit',
@@ -410,12 +406,7 @@ const temps = [
       "Et si cela est possible ou semble nécessaire côté interne : le parc d'outils réellement utilisés, <strong class='font-medium text-gray-700'>y compris ceux que personne n'a officialisés</strong> — le tableur de facturation, le service de transfert gratuit, le compte partagé. Ils font partie du système même s'ils ne figurent nulle part.",
     ],
     piege: "Confondre l'audit et le jugement esthétique. On produit un relevé factuel et vérifiable, canal par canal, pas un avis sur le graphisme, bien que celui-ci puisse faire l'objet d'une analyse spécifique selon le besoin.",
-    outil: {
-      nom: "Audit de l'écosystème digital",
-      desc: 'Grille de relevé, canal par canal',
-      notion: 'https://outilsplaybook.notion.site/audit-ecosysteme-digital',
-      fichier: '/gabarits/audit-ecosysteme-digital.pdf',
-    },
+    outil: outil['audit-ecosysteme'],
   },
   {
     num: '④', verbe: 'Écouter', objet: 'la clientèle', cle: 'Clientèle',
@@ -440,12 +431,7 @@ const temps = [
       "Choisir des acteurs directs et selon des critères de sélection. Un benchmark identitaire n'aurait pas les mêmes critères qu'un benchmark concurrentiel par exemple.",
     ],
     piege: null,
-    outil: {
-      nom: 'Benchmark concurrentiel',
-      desc: 'Grille à huit critères et échelle de notation remplissable',
-      notion: 'https://outilsplaybook.notion.site/373619ce562b80f4a734ef3fa1161685',
-      fichier: '/gabarits/benchmark-concurrentiel.pdf',
-    },
+    outil: outil['benchmark-concurrentiel'],
   },
   {
     num: '⑥', verbe: 'Croiser', objet: 'les sources', cle: 'Synthèse',

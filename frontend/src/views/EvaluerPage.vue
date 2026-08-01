@@ -448,6 +448,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import MethodeNav from '../components/MethodeNav.vue'
+import { outil } from '../data/outils.js'
 
 /* ── Le carrousel ─────────────────────────────────────────────── */
 
@@ -485,12 +486,7 @@ const temps = [
       "Choisir trois à cinq candidates, évaluées sur des critères d'importance (forte ou faible) qui aideront à juger de leur pertinence. Cela peut être la courbe d'apprentissage, la maintenance, le coût, etc.",
     ],
     piege: "Ne pas tenir compte d'une contrainte transversale qui doit être éliminatoire. Il est important de ne pas les omettre et d'éliminer toute solution qui ne répond pas à cette contrainte.",
-    outil: {
-      nom: 'Benchmark des solutions',
-      desc: 'Grille comparative, critères pondérés et contraintes éliminatoires',
-      notion: 'https://outilsplaybook.notion.site/benchmark-solutions',
-      fichier: '/gabarits/benchmark-solutions.pdf',
-    },
+    outil: outil['benchmark-solutions'],
   },
   {
     num: '③', verbe: 'Tester', objet: 'le choix',

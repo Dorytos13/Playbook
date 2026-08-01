@@ -385,6 +385,7 @@
 <script setup>
 import { ref, computed, watch, onUnmounted } from 'vue'
 import MethodeNav from '../components/MethodeNav.vue'
+import { outil } from '../data/outils.js'
 
 /* ── Le carrousel ─────────────────────────────────────────────── */
 
@@ -420,12 +421,7 @@ const temps = [
       "À partir de cette matrice, on peut poser les besoins d'après la liste précédemment réalisée aux endroits appropriés.",
     ],
     piege: 'Confondre ce qui est urgent avec ce qui est "bruyant". Le besoin que le mandant répète le plus souvent n\'est pas forcément celui qui bloque. C\'est souvent le plus visible, mais pas le plus impactant.',
-    outil: {
-      nom: 'Matrice de priorisation',
-      desc: 'Urgence × importance, avec les quatre issues',
-      notion: 'https://outilsplaybook.notion.site/matrice-priorisation',
-      fichier: '/gabarits/matrice-priorisation.pdf',
-    },
+    outil: outil['matrice-priorisation'],
   },
   {
     num: '③', verbe: 'Poser', objet: 'les contraintes',

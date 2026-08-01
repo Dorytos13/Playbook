@@ -458,6 +458,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import MethodeNav from '../components/MethodeNav.vue'
+import { outil } from '../data/outils.js'
 
 /* ── Le carrousel ─────────────────────────────────────────────── */
 
@@ -512,12 +513,7 @@ const temps = [
       "Plusieurs formes fonctionnent : un tableau, un kanban, un rétroplanning. La plus adéquate et la plus lisible reste le <strong class='font-medium text-gray-700'>diagramme de Gantt</strong>, où chaque lot devient une barre sur une frise. La durée, l'ordre et les chevauchements se lisent visuellement, sans qu'il faille les décortiquer, ce qui compte beaucoup face à une équipe qui n'a pas l'habitude de la gestion de projet.",
     ],
     piege: "Présenter un planning découpé en dizaines de tâches. L'entreprise n'a pas besoin de votre plan de travail, elle a besoin de savoir quand elle sera sollicitée et quand elle verra quelque chose. Un Gantt de huit barres se retient, un Gantt de quarante lignes se referme.",
-    outil: {
-      nom: 'Diagramme de Gantt',
-      desc: "Frise du projet : lots, durées, dépendances et moments où l'entreprise est attendue",
-      notion: 'https://outilsplaybook.notion.site/diagramme-de-gantt',
-      fichier: '/gabarits/diagramme-de-gantt.pdf',
-    },
+    outil: outil['diagramme-gantt'],
   },
   {
     num: '④', verbe: 'Embarquer', objet: "l'équipe",
@@ -532,12 +528,7 @@ const temps = [
       "Pendant cet atelier, <strong class='font-medium text-gray-700'>varier les façons d'expliquer</strong>. Une même chose ne passe pas de la même manière pour tout le monde : certains comprennent en regardant faire, d'autres ont besoin d'un schéma sous les yeux, d'autres encore ne retiennent qu'après avoir essayé eux-mêmes. Montrer, faire faire, puis évaluer ce qui a été effectué.",
     ],
     piege: "Arriver à l'atelier sans l'avoir préparé, en se disant qu'on connaît assez bien l'outil pour improviser. Il y aura toujours quelque chose d'oublié, et l'équipe repartira avec une démonstration à trous. Préparer le déroulé coûte une heure, et offrira une réelle structure.",
-    outil: {
-      nom: "Atelier d'accompagnement",
-      desc: "Trame d'animation : objectif, déroulé, production attendue et relevé des décisions",
-      notion: 'https://outilsplaybook.notion.site/guide-atelier-accompagnement',
-      fichier: '/gabarits/guide-atelier-accompagnement.pdf',
-    },
+    outil: outil['atelier-accompagnement'],
   },
   {
     num: '⑤', verbe: 'Tracer', objet: 'les décisions',
@@ -551,12 +542,7 @@ const temps = [
       "Tenir ce qu'on appelle un journal de bord. Celui-ci peut prendre la simple forme d'un paragraphe journalier que vous écrivez pour faire un compte rendu de la journée ou être plus structuré : <strong class='font-medium text-gray-700'>ce qui a été décidé et pourquoi</strong>, ce qui a été écarté, et ce qui bloque encore.",
       "Relire ces notes pour concevoir et parler des points importants au rendez-vous de fin de cycle, c'est ce qui transforme le journal en outil de pilotage plutôt qu'en simple archive.",
     ],
-    outil: {
-      nom: 'Journal de bord',
-      desc: 'Suivi par cycle : décisions, arbitrages, écarts et points bloquants',
-      notion: 'https://outilsplaybook.notion.site/journal-de-bord',
-      fichier: '/gabarits/journal-de-bord.pdf',
-    },
+    outil: outil['journal-de-bord'],
   },
 ]
 
