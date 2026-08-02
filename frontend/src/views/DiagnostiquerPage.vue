@@ -114,7 +114,16 @@
                     <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-3">
                       {{ courant.pourquoiTitre }}
                     </p>
-                    <p class="text-sm text-gray-500 leading-relaxed" v-html="courant.pourquoi"></p>
+                    <template v-if="Array.isArray(courant.pourquoi)">
+                      <p
+                        v-for="(par, index) in courant.pourquoi"
+                        :key="index"
+                        class="text-sm text-gray-500 leading-relaxed"
+                        :class="index < courant.pourquoi.length - 1 ? 'mb-3' : ''"
+                        v-html="par"
+                      ></p>
+                    </template>
+                    <p v-else class="text-sm text-gray-500 leading-relaxed" v-html="courant.pourquoi"></p>
                   </div>
 
                   <div>
@@ -437,10 +446,13 @@ const temps = [
     num: '⑥', verbe: 'Croiser', objet: 'les sources', cle: 'Synthèse',
     titre: 'Croiser les sources',
     pourquoiTitre: "Pourquoi c'est une étape et non une conclusion",
-    pourquoi: "Le croisement produit ce qu'aucune source ne contient. C'est un travail à part entière, qui demande un certain temps d'analyse des sources précédentes.",
+    pourquoi: [
+      "Le croisement produit ce qu'aucune source ne contient. C'est un travail à part entière, qui demande un certain temps d'analyse des sources précédentes.",
+      "C'est cette partie qui est décisive et qui mènera à orienter stratégiquement le projet.",
+    ],
     faire: [
       "Il s'agira de reprendre les données recensées et tirer des fils entre elles ce qui peut mener à créer différents éléments : une cartographie des processus, un parcours clients, qui mettent les frictions en regard côté client et côté entreprise. Mais aussi un relevé des frictions, chacune rattachée à ce qu'elle affecte.",
-      "C'est cette partie qui est décisive et qui mènera à orienter stratégiquement le projet.",
+      "C'est à ce moment là aussi que relever des KPIs comme le temps, le nombre, la fréquence, etc. sera utile pour pouvoir effectuer une comparaison en étape 07, l'évaluation.",
     ],
     piege: "Arriver au croisement avec trop peu de matière. Si toutes les sources disent la même chose parce qu'elles viennent du même endroit, le croisement ne révélera aucun mécanisme. Il faudra retourner sur le terrain avant de conclure.",
     outil: null,

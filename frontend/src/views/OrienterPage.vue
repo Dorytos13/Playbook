@@ -130,7 +130,16 @@
                     <p class="text-xs font-medium text-gray-400 uppercase tracking-widest mb-3">
                       {{ courant.pourquoiTitre }}
                     </p>
-                    <p class="text-sm text-gray-500 leading-relaxed" v-html="courant.pourquoi"></p>
+                    <template v-if="Array.isArray(courant.pourquoi)">
+                      <p
+                        v-for="(par, index) in courant.pourquoi"
+                        :key="index"
+                        class="text-sm text-gray-500 leading-relaxed"
+                        :class="index < courant.pourquoi.length - 1 ? 'mb-3' : ''"
+                        v-html="par"
+                      ></p>
+                    </template>
+                    <p v-else class="text-sm text-gray-500 leading-relaxed" v-html="courant.pourquoi"></p>
                   </div>
 
                   <div>
@@ -403,8 +412,11 @@ const temps = [
     num: '①', verbe: 'Traduire', objet: 'les constats',
     titre: 'Traduire les constats en besoins',
     pourquoiTitre: 'Pourquoi en premier',
-    pourquoi: "La dernière étape jusqu'ici a été le croisement des données. Cela permet de mettre en évidence les symptômes tels que les attentes, les frictions, etc. Maintenant transformer ces symptômes en besoins permettra de prioriser des objectifs plutôt que des symptômes.",
-    faire: [
+    pourquoi: [
+      "La dernière étape jusqu'ici a été le croisement des données. Cela permet de mettre en évidence les symptômes tels que les attentes, les frictions, etc. Maintenant transformer ces symptômes en besoins permettra de prioriser des objectifs plutôt que des symptômes.",
+      "Noter au passage à quoi on verra que le besoin est résolu. C'est souvent ici les KPIs identifiés durant le diagnostic qui serviront à mesurer, une fois l'outil en service.",
+    ],
+      faire: [
       "Reprendre chaque friction relevée dans le croisement des données et formuler ce qu'il faudrait pour qu'elle disparaisse, <strong class='font-medium text-gray-700'>sans nommer d'outil</strong>. « Dix appels par jour pour des informations de base » devient « rendre les informations courantes accessibles sans passer par l'équipe ».",
       "Regrouper ensuite ce qui se recoupe : plusieurs frictions renvoient souvent au même besoin, et c'est ce regroupement qui donne à chacun son poids.",
     ],
@@ -479,6 +491,7 @@ const issues = [
 
 const criteres = [
   "Chaque besoin retenu est formulé comme un <strong class='font-medium text-gray-700'>besoin</strong>, pas comme une solution",
+  "Chaque besoin retenu a un indicateur qui permet de savoir quand il est satisfait",
   "Ce qui sort du périmètre a une raison écrite et une suite proposée",
   "Les contraintes transversales sont posées",
   "L'écart avec la demande initiale a été évalué, qu'il existe ou non",
