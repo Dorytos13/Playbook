@@ -86,7 +86,7 @@ const usages = [
   },
   {
     titre: 'Un cas pour illustrer la méthodologie',
-    desc: "Chaque étape se termine par un exemple tiré d'une mission réelle, celle d'un travail de Bachelor chez Photogare. Elle permet d'illustrer la méthode, mais n'a pas pour but d'être rep tel quel. C'est elle qui a permis de construire ce playbook, pas l'inverse.",
+    desc: "Chaque étape se termine par un exemple tiré d'une mission réelle, celle d'un travail de Bachelor chez Photogare. Elle permet d'illustrer la méthode, avec ce qui s'est passé en cas concret. C'est elle qui a servi de base pour construire ce playbook.",
   },
 ]
 
