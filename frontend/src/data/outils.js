@@ -115,6 +115,18 @@ export const outils = [
     notion: 'https://outilsplaybook.notion.site/journal-de-bord',
     fichier: '/gabarits/journal-de-bord.pdf',
   },
+  {
+    cle: 'matrices-de-decision',
+    nom: 'Matrices de décision',
+    desc: 'Deux matrices pour arbitrer la suite : valeur × effort, et impact × effort',
+    resume: "Deux matrices en complément de celle d'Eisenhower. La première croise la valeur ajoutée et l'effort de mise en place, la seconde croise le caractère bloquant d'un problème et la difficulté à le corriger. Chaque case porte déjà sa décision, du quick win au gouffre à ressources.",
+    quand: 'Au moment d\'arbitrer la suite',
+    numero: '07',
+    etape: 'Mesurer et faire évoluer',
+    route: '/mesurer',
+    notion: 'https://outilsplaybook.notion.site/matrices-de-decision',
+    fichier: '/gabarits/matrices-de-decision.pdf',
+  },
 ]
 
 /**
