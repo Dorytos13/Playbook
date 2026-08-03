@@ -428,7 +428,7 @@
             <div class="rounded-xl p-6 bg-gray-800">
               <p class="text-xs font-medium uppercase tracking-widest mb-3 text-gray-500">Ce que ça démontre</p>
               <p class="text-sm leading-relaxed mb-3 text-white/85">
-                En comparaison avec la plateforme, le sur-mesure reste plus cher sur la durée, environ deux fois et demie la plateforme sur cinq ans, l'écart tenant surtout à la maintenance. En revanche l'avantage du sur-mesure est de lever des frictions qui ne peuvent pas être levées sur la plateforme. Ceci permet donc à l'équipe de se concentrer sur le travail à valeur ajoutée mais surtout d'optimiser du temps permettant d'obtenir un retour sur investissement plus rapide et ainsi minimiser les coûts supplémentaires du sur-mesure sur la durée. 
+                En comparaison avec la plateforme, le sur-mesure reste plus cher sur la durée, environ une fois et demie la plateforme sur cinq ans, l'écart tenant surtout à la maintenance. En revanche l'avantage du sur-mesure est de lever des frictions qui ne peuvent pas être levées sur la plateforme. Ceci permet donc à l'équipe de se concentrer sur le travail à valeur ajoutée mais surtout d'optimiser du temps permettant d'obtenir un retour sur investissement plus rapide et ainsi minimiser les coûts supplémentaires du sur-mesure sur la durée. 
               </p>
               <p class="text-sm leading-relaxed mb-3 text-white/85">
                 Cela n'est donc pas forcément la bonne réponse par défaut. Mais ce n'était pas non plus une option déraisonnable : elle n'avait simplement jamais été évaluée, écartée d'emblée parce que l'entreprise était petite et son équipe non technique.
