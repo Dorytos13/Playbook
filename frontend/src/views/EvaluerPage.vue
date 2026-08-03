@@ -550,7 +550,7 @@ const coches = ref(criteres.map(() => false))
 const chiffres = [
   { val: '5', label: 'jours de développement' },
   { val: '9', label: 'frictions levées sur 9' },
-  { val: '×2,5', label: 'plus cher sur cinq ans' },
+  { val: '×1,5', label: 'plus cher sur cinq ans' },
 ]
 </script>
 
