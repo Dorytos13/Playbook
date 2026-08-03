@@ -11,7 +11,7 @@ Doriane Rosset · Mandant : Photogare, Morges
 
 ## Consulter le site
 
-**En ligne :** [dorianerosset.ch](https://playbook.dorianerosset.ch)
+**En ligne :** [playbook.dorianerosset.ch](https://playbook.dorianerosset.ch)
 
 C'est la manière la plus simple de découvrir le travail : rien à installer.
 
@@ -34,7 +34,7 @@ npm install
 npm run dev
 ```
 
-La console affiche une adresse de type `http://localhost:5173` — c'est le site.
+La console affiche une adresse de type `http://localhost:5173` c'est le site.
 
 Pour produire la version compilée, telle qu'elle est mise en ligne :
 
